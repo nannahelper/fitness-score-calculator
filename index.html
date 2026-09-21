@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>体测分数计算器</title>
-  <link rel="stylesheet" href="styles.css?v=2400-20260921">
+  <link rel="stylesheet" href="styles.css?v=data-20260921">
 </head>
 <body>
   <main>
-    <h1>体测分数计算器</h1>
-    <p class="muted">大学生体质健康测试评分表 · 结果仅在本机计算</p>
+    <div class="title-row"><div><h1>体测分数计算器</h1><p class="muted">大学生体质健康测试评分表 · 结果仅在本机计算</p></div><div class="version-switch"><span>数据</span><button id="versionSpring" class="version-button active" type="button">春秋版</button><button id="versionLegacy" class="version-button" type="button">旧版</button></div></div>
+    <p id="versionNote" class="version-note"></p>
 
     <nav class="tabs" aria-label="功能"><button class="mode-tab active" data-mode="college">综合成绩</button><button class="mode-tab" data-mode="nju2400">2400 米</button><button class="mode-tab" data-mode="lookup">评分表</button></nav>
 
@@ -29,6 +29,6 @@
       <div class="table-wrap"><table id="lookupTable"></table></div>
     </section>
   </main>
-  <script src="app.js?v=2400-20260921" type="module"></script>
+  <script src="app.js?v=data-20260921" type="module"></script>
 </body>
 </html>
