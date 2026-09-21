@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>体测分数计算器</title>
-  <link rel="stylesheet" href="styles.css?v=1302017">
+  <link rel="stylesheet" href="styles.css?v=2400-20260921">
 </head>
 <body>
   <main>
@@ -20,7 +20,7 @@
     </section>
 
     <section class="mode-panel hidden" data-panel="nju2400">
-      <div class="row"><label>性别<select id="runGender"><option value="male">男生</option><option value="female">女生</option></select></label><label>成绩（分:秒）<input id="runTime" inputmode="numeric" placeholder="10:30" aria-describedby="runTimeHelp"><small id="runTimeHelp" class="time-help">必须写成“分:秒”，例如 10:30；秒数 00–59</small></label></div>
+      <div class="row"><label>性别<select id="runGender"><option value="male">男生</option><option value="female">女生</option></select></label><label>分钟<input id="runMin" type="number" inputmode="numeric" min="0" max="99" placeholder="10"></label><label>秒<input id="runSec" type="number" inputmode="numeric" min="0" max="59" placeholder="30"></label><small class="time-help">分:秒填写，例如 10 分 30 秒；秒数 00–59</small></div>
       <div class="result" id="runResult"><span class="muted">输入成绩</span></div>
     </section>
 
@@ -29,6 +29,6 @@
       <div class="table-wrap"><table id="lookupTable"></table></div>
     </section>
   </main>
-  <script src="app.js?v=1302017" type="module"></script>
+  <script src="app.js?v=2400-20260921" type="module"></script>
 </body>
 </html>
