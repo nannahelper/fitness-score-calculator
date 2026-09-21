@@ -18,7 +18,6 @@ async function boot() {
   calculate();
   calculate2400();
   renderLookup();
-  applyTheme(localStorage.getItem('nanna-theme') || 'dark');
 }
 function eventMeta(id) { return collegeEvents.find(x => x.id === id); }
 function renderMeasureInputs() {
@@ -27,7 +26,7 @@ function renderMeasureInputs() {
     const control = e.type === 'bmi'
       ? `<div class="unit-input"><input id="height" type="number" min="50" max="250" step=".1" placeholder="身高"><span>cm</span><input id="weight" type="number" min="10" max="300" step=".1" placeholder="体重"><span>kg</span></div>`
       : e.type === 'time'
-      ? `<div class="time-input"><input id="${e.id}Min" inputmode="numeric" min="0" max="99" placeholder="分"><b>:</b><input id="${e.id}Sec" inputmode="numeric" min="0" max="59" placeholder="秒"></div>`
+      ? `<div class="time-input"><input id="${e.id}Min" inputmode="numeric" min="0" max="99" placeholder="分" aria-label="分钟"><b>:</b><input id="${e.id}Sec" inputmode="numeric" min="0" max="59" placeholder="秒" aria-label="秒"><span class="time-help">格式：分:秒，例如 4:05；秒数 00–59</span></div>`
       : `<div class="unit-input"><input id="${e.id}" type="number" ${e.min !== undefined ? `min="${e.min}"`:''} step="${e.step || 1}" placeholder="请输入"><span>${e.unit}</span></div>`;
     return `<div class="measure-card"><div class="measure-title"><strong>${title}</strong><small>${e.hint}</small></div>${control}</div>`;
   }).join('');
@@ -36,7 +35,7 @@ function renderMeasureInputs() {
 function getGender(){return $('#gender')?.value || 'male'}
 function getGrade(){return $('#grade')?.value || 'freshman'}
 function value(id){const el=$(`#${id}`); return el && el.value !== '' ? Number(el.value) : null}
-function parseTime(minId, secId){const m=value(minId), s=value(secId); return m == null && s == null ? null : (m||0)*60+(s||0)}
+function parseTime(minId, secId){const m=value(minId), s=value(secId); if(m == null && s == null)return null; if((m??0)<0 || (s??0)<0 || (s??0)>=60)return null; return (m||0)*60+(s||0)}
 function scoreLevel(n){return n>=90?'优秀':n>=80?'良好':n>=60?'及格':'不及格'}
 function getRowValue(row,event,gender,grade){
   const col=grade==='freshman'?0:1;
@@ -84,18 +83,13 @@ function bindEvents(){
   $('#gender').addEventListener('change',()=>{renderMeasureInputs();calculate()});
   $('#grade').addEventListener('change',calculate);
   $('#resetButton').addEventListener('click',()=>{document.querySelectorAll('#measureGrid input').forEach(i=>i.value='');calculate()});
-  $('#shareButton').addEventListener('click',copySummary);
-  $('#printButton').addEventListener('click',()=>window.print());
   $('#runGender').addEventListener('change',calculate2400); $('#runTime').addEventListener('input',calculate2400);
   $('#lookupEvent').addEventListener('change',renderLookup); $('#lookupGender').addEventListener('change',renderLookup); $('#lookupGrade').addEventListener('change',renderLookup);
-  $('#themeToggle').addEventListener('click',()=>applyTheme(document.body.classList.contains('light')?'dark':'light'));
 }
 function $$(s){return [...document.querySelectorAll(s)]}
 function switchMode(mode){$$('.mode-tab').forEach(b=>{const active=b.dataset.mode===mode;b.classList.toggle('active',active);b.setAttribute('aria-selected',active)});$$('.mode-panel').forEach(p=>p.classList.toggle('hidden',p.dataset.panel!==mode));history.replaceState(null,'',`#${mode}`)}
-function parseInputTime(v){if(!v)return null;const p=v.trim().split(':');if(p.length===1&&/^\d+(\.\d+)?$/.test(p[0]))return Number(p[0]);if(p.length===2&&Number(p[0])>=0&&Number(p[1])<60)return Number(p[0])*60+Number(p[1]);return null}
+function parseInputTime(v){if(!v)return null;const p=v.trim().split(':');if(p.length===2&&/^\d+$/.test(p[0])&&/^\d{1,2}(\.\d+)?$/.test(p[1])&&Number(p[0])>=0&&Number(p[1])>=0&&Number(p[1])<60)return Number(p[0])*60+Number(p[1]);return null}
 function calculate2400(){if(!data||!$('#runResult'))return;const seconds=parseInputTime($('#runTime').value), gender=$('#runGender').value; if(seconds==null){$('#runResult').innerHTML='<div class="empty-state">输入成绩后查看单项分数</div>';return}const rows=data.legacyStandard['2400m'][gender];let found=rows.find(r=>seconds<=r.seconds); if(!found)found=rows[rows.length-1];const score=seconds<rows[0].seconds?100:found.score; const note=score===100&&seconds<rows[0].seconds?'超过满分档位':score===0?'低于最低档位':`对应档位 ${displayTime(found.seconds)}`;$('#runResult').innerHTML=`<div class="single-score"><div class="number">${score.toFixed(1)}</div><p>${scoreLevel(score)} · ${note} · 实测 ${displayTime(seconds)}</p></div>`}
 function populateLookupEvents(){const names={vital:'肺活量',sprint:'50 米跑',jump:'立定跳远',sitReach:'坐位体前屈',endurance:'耐力跑',strength:'力量项'};$('#lookupEvent').innerHTML=Object.entries(names).map(([id,n])=>`<option value="${id}">${n}</option>`).join('')}
 function renderLookup(){if(!data||!$('#lookupTable'))return;const event=$('#lookupEvent').value,gender=$('#lookupGender').value,grade=$('#lookupGrade').value,rows=data.genders[gender];const labels={vital:'肺活量（mL）',sprint:'50 米（秒）',jump:'立定跳远（cm）',sitReach:'坐位体前屈（cm）',endurance:'耐力跑',strength:gender==='male'?'引体向上（次）':'仰卧起坐（次）'};const higher=['vital','jump','sitReach','strength'].includes(event);$('#lookupTable').innerHTML=`<thead><tr><th>等级</th><th>单项分</th><th>${labels[event]} · ${grade==='freshman'?'大一/大二':'大三/大四'}</th></tr></thead><tbody>${rows.map(r=>`<tr><td>${scoreLevel(r.score)}</td><td>${r.score}</td><td>${event==='endurance'?displayTime(r[event][grade==='freshman'?0:1]):r[event][grade==='freshman'?0:1]}${higher?' 以上':' 以内'}</td></tr>`).join('')}</tbody>`}
-async function copySummary(){const score=$('.big-score')?.textContent||'—';const level=$('.level')?.textContent||'待完善';const text=`体测分数预估：${score} 分（${level}）\n来源：NanNa 体测分数计算器`;try{await navigator.clipboard.writeText(text);const b=$('#shareButton');b.textContent='已复制 ✓';setTimeout(()=>b.textContent='复制结果摘要',1600)}catch{alert(text)}}
-function applyTheme(theme){document.body.classList.toggle('light',theme==='light');localStorage.setItem('nanna-theme',theme);$('#themeToggle').textContent=theme==='light'?'☼':'◐'}
 boot().catch(err=>{console.error(err);document.querySelector('.app-shell').innerHTML='<p>数据加载失败，请刷新页面或检查网络连接。</p>'});
