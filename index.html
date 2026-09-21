@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="南京大学大学生体质健康测试成绩计算器：支持 BMI、肺活量、50 米、立定跳远、坐位体前屈、耐力跑、引体向上/仰卧起坐及 2400 米评分。">
+  <meta name="theme-color" content="#07111f">
+  <title>体测分数计算器 · NanNa Tools</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="回到顶部"><span class="brand-mark">N</span><span>NanNa <b>体测计算器</b></span></a>
+    <nav><a href="#calculator">计算器</a><a href="#guide">规则说明</a><a href="#sources">数据来源</a></nav>
+    <button class="theme-toggle" id="themeToggle" type="button" title="切换主题" aria-label="切换主题">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">NANNA TOOLS · 体质健康测试</p>
+        <h1>把每一项成绩，<em>算清楚。</em></h1>
+        <p class="lede">按随附的大学生体质健康测试评分表计算加权总分；同时保留南大 2400 米单项评分查询。数据在浏览器本地计算，不上传成绩。</p>
+        <div class="hero-pills"><span>离线可用</span><span>手机友好</span><span>支持加分项</span></div>
+      </div>
+      <div class="hero-orb" aria-hidden="true"><span class="orb-number">100</span><span class="orb-label">满分参考</span><i></i><i></i><i></i></div>
+    </section>
+
+    <section class="app-shell" id="calculator">
+      <div class="mode-tabs" role="tablist" aria-label="计算模式">
+        <button class="mode-tab active" data-mode="college" role="tab" aria-selected="true">大学生综合成绩</button>
+        <button class="mode-tab" data-mode="nju2400" role="tab" aria-selected="false">南大 2400 米单项</button>
+        <button class="mode-tab" data-mode="lookup" role="tab" aria-selected="false">评分表速查</button>
+      </div>
+
+      <section class="mode-panel" id="collegePanel" data-panel="college">
+        <div class="panel-head"><div><p class="eyebrow">COLLEGE STANDARD</p><h2>大学生体质健康测试</h2></div><button class="text-button" id="resetButton" type="button">↻ 重置</button></div>
+        <div class="selectors">
+          <label>性别<select id="gender"><option value="male">男生</option><option value="female">女生</option></select></label>
+          <label>年级<select id="grade"><option value="freshman">大一 / 大二</option><option value="senior">大三 / 大四</option></select></label>
+        </div>
+        <div class="hint"><span>ⓘ</span><span>输入实测值后会即时计算。耐力跑格式为<strong>分:秒</strong>；男生力量项为引体向上，女生为一分钟仰卧起坐。</span></div>
+        <div class="measure-grid" id="measureGrid"></div>
+        <div class="actions"><button class="primary-button" id="shareButton" type="button">复制结果摘要</button><button class="secondary-button" id="printButton" type="button">打印 / 保存 PDF</button></div>
+        <div class="result-layout" id="resultArea" aria-live="polite"></div>
+      </section>
+
+      <section class="mode-panel hidden" id="nju2400Panel" data-panel="nju2400">
+        <div class="panel-head"><div><p class="eyebrow">NANJING UNIVERSITY · 2400M</p><h2>2400 米跑单项评分</h2></div></div>
+        <div class="selectors"><label>性别<select id="runGender"><option value="male">男生</option><option value="female">女生</option></select></label><label>成绩（分:秒）<input id="runTime" inputmode="numeric" placeholder="例如 10:30" autocomplete="off"></label></div>
+        <div class="hint"><span>ⓘ</span><span>该表来自《南京大学体育部体测评分标准等要求.xls》。原表把 10′00″–18′00″（男）和 13′00″–21′00″（女）存为 Excel 时间，本工具按分钟:秒解释。</span></div>
+        <div class="single-result" id="runResult"><div class="empty-state">输入成绩后查看单项分数</div></div>
+        <div class="reference-note"><strong>提示：</strong>本查询是 2400 米单项分，不与大学生综合成绩的 1000/800 米项目相加。</div>
+      </section>
+
+      <section class="mode-panel hidden" id="lookupPanel" data-panel="lookup">
+        <div class="panel-head"><div><p class="eyebrow">TABLE LOOKUP</p><h2>评分表速查</h2></div></div>
+        <div class="selectors"><label>项目<select id="lookupEvent"></select></label><label>性别<select id="lookupGender"><option value="male">男生</option><option value="female">女生</option></select></label><label>年级<select id="lookupGrade"><option value="freshman">大一 / 大二</option><option value="senior">大三 / 大四</option></select></label></div>
+        <div class="table-wrap"><table id="lookupTable"></table></div>
+      </section>
+    </section>
+
+    <section class="info-section" id="guide"><div class="section-title"><p class="eyebrow">HOW IT WORKS</p><h2>计算规则</h2></div><div class="rule-grid"><article><span class="rule-icon">01</span><h3>七项加权</h3><p>BMI 15%、肺活量 15%、50 米 20%、立定跳远 10%、坐位体前屈 10%、耐力跑 20%、力量项 10%。</p></article><article><span class="rule-icon">02</span><h3>加分项单独处理</h3><p>引体向上每超过满分标准 1 次加 1 分；耐力跑按超过满分标准的秒数对应加分，最多 10 分。</p></article><article><span class="rule-icon">03</span><h3>结果只在本机</h3><p>成绩仅存于当前浏览器的输入框和本地缓存，不发送到服务器；最终成绩以学校正式测评为准。</p></article></div></section>
+    <section class="source-section" id="sources"><div class="section-title"><p class="eyebrow">SOURCE & NOTES</p><h2>数据说明</h2></div><div class="source-box"><p>大学生评分数据取自仓库 <code>static_resources/体测分数对照表.xls</code>；2400 米数据取自 <code>static_resources/南京大学体育部体测评分标准等要求.xls</code>。仓库中同名的“体测分数对照表 (1).xls”与原表 SHA-256 完全一致，未重复引入。</p><p>随附的 <code>体测标准.docx</code> 与大学男生表中的大学阶段阈值已交叉核对；计分采用表格列出的离散档位，档位之间不做线性插值。高优项目取不低于实测值的最近档位，低优项目取不高于实测值的最近档位。</p><p class="disclaimer">这是学习和估算工具，不替代学校成绩系统或体育部发布的最新规则。</p></div></section>
+  </main>
+  <footer><span>NanNa Tools</span><span>静态页面 · <a href="https://github.com/nannahelper/fitness-score-calculator">GitHub</a></span></footer>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

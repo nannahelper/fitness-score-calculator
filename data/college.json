@@ -1,0 +1,6495 @@
+{
+  "source": "体测分数对照表.xls",
+  "grades": [
+    {
+      "id": "freshman",
+      "label": "大一/大二",
+      "column": 0
+    },
+    {
+      "id": "senior",
+      "label": "大三/大四",
+      "column": 1
+    }
+  ],
+  "weights": {
+    "bmi": 15,
+    "vital": 15,
+    "sprint": 20,
+    "jump": 10,
+    "sitReach": 10,
+    "endurance": 20,
+    "strength": 10
+  },
+  "bonus": {
+    "strength": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        9,
+        9
+      ],
+      [
+        10,
+        10
+      ]
+    ],
+    "endurance": [
+      [
+        4,
+        1
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        16,
+        4
+      ],
+      [
+        20,
+        5
+      ],
+      [
+        23,
+        6
+      ],
+      [
+        26,
+        7
+      ],
+      [
+        29,
+        8
+      ],
+      [
+        32,
+        9
+      ],
+      [
+        35,
+        10
+      ]
+    ]
+  },
+  "genders": {
+    "male": [
+      {
+        "score": 100,
+        "bmi": "17.9~23.9",
+        "vital": [
+          5040,
+          5140
+        ],
+        "sprint": [
+          6.7,
+          6.6
+        ],
+        "jump": [
+          273,
+          275
+        ],
+        "sitReach": [
+          24.9,
+          25.1
+        ],
+        "endurance": [
+          197,
+          195
+        ],
+        "strength": [
+          19,
+          20
+        ]
+      },
+      {
+        "score": 95,
+        "bmi": null,
+        "vital": [
+          4920,
+          5020
+        ],
+        "sprint": [
+          6.8,
+          6.7
+        ],
+        "jump": [
+          268,
+          270
+        ],
+        "sitReach": [
+          23.1,
+          23.3
+        ],
+        "endurance": [
+          202,
+          200
+        ],
+        "strength": [
+          18,
+          19
+        ]
+      },
+      {
+        "score": 90,
+        "bmi": null,
+        "vital": [
+          4800,
+          4900
+        ],
+        "sprint": [
+          6.9,
+          6.8
+        ],
+        "jump": [
+          263,
+          265
+        ],
+        "sitReach": [
+          21.3,
+          21.5
+        ],
+        "endurance": [
+          207,
+          205
+        ],
+        "strength": [
+          17,
+          18
+        ]
+      },
+      {
+        "score": 85,
+        "bmi": null,
+        "vital": [
+          4550,
+          4650
+        ],
+        "sprint": [
+          7.0,
+          6.9
+        ],
+        "jump": [
+          256,
+          258
+        ],
+        "sitReach": [
+          19.5,
+          19.9
+        ],
+        "endurance": [
+          214,
+          212
+        ],
+        "strength": [
+          16,
+          17
+        ]
+      },
+      {
+        "score": 80,
+        "bmi": "24.0-27.9，≤17.8",
+        "vital": [
+          4300,
+          4400
+        ],
+        "sprint": [
+          7.1,
+          7.0
+        ],
+        "jump": [
+          248,
+          250
+        ],
+        "sitReach": [
+          17.7,
+          18.2
+        ],
+        "endurance": [
+          222,
+          220
+        ],
+        "strength": [
+          15,
+          16
+        ]
+      },
+      {
+        "score": 78,
+        "bmi": null,
+        "vital": [
+          4180,
+          4280
+        ],
+        "sprint": [
+          7.3,
+          7.2
+        ],
+        "jump": [
+          244,
+          246
+        ],
+        "sitReach": [
+          16.3,
+          16.8
+        ],
+        "endurance": [
+          227,
+          225
+        ],
+        "strength": [
+          null,
+          null
+        ]
+      },
+      {
+        "score": 76,
+        "bmi": null,
+        "vital": [
+          4060,
+          4160
+        ],
+        "sprint": [
+          7.5,
+          7.4
+        ],
+        "jump": [
+          240,
+          242
+        ],
+        "sitReach": [
+          14.9,
+          15.4
+        ],
+        "endurance": [
+          232,
+          230
+        ],
+        "strength": [
+          14,
+          15
+        ]
+      },
+      {
+        "score": 74,
+        "bmi": null,
+        "vital": [
+          3940,
+          4040
+        ],
+        "sprint": [
+          7.7,
+          7.6
+        ],
+        "jump": [
+          236,
+          238
+        ],
+        "sitReach": [
+          13.5,
+          14.0
+        ],
+        "endurance": [
+          237,
+          235
+        ],
+        "strength": [
+          null,
+          null
+        ]
+      },
+      {
+        "score": 72,
+        "bmi": null,
+        "vital": [
+          3820,
+          3920
+        ],
+        "sprint": [
+          7.9,
+          7.8
+        ],
+        "jump": [
+          232,
+          234
+        ],
+        "sitReach": [
+          12.1,
+          12.6
+        ],
+        "endurance": [
+          242,
+          240
+        ],
+        "strength": [
+          13,
+          14
+        ]
+      },
+      {
+        "score": 70,
+        "bmi": null,
+        "vital": [
+          3700,
+          3800
+        ],
+        "sprint": [
+          8.1,
+          8.0
+        ],
+        "jump": [
+          228,
+          230
+        ],
+        "sitReach": [
+          10.7,
+          11.2
+        ],
+        "endurance": [
+          247,
+          245
+        ],
+        "strength": [
+          null,
+          null
+        ]
+      },
+      {
+        "score": 68,
+        "bmi": null,
+        "vital": [
+          3580,
+          3680
+        ],
+        "sprint": [
+          8.3,
+          8.2
+        ],
+        "jump": [
+          224,
+          226
+        ],
+        "sitReach": [
+          9.3,
+          9.8
+        ],
+        "endurance": [
+          252,
+          250
+        ],
+        "strength": [
+          12,
+          13
+        ]
+      },
+      {
+        "score": 66,
+        "bmi": null,
+        "vital": [
+          3460,
+          3560
+        ],
+        "sprint": [
+          8.5,
+          8.4
+        ],
+        "jump": [
+          220,
+          222
+        ],
+        "sitReach": [
+          7.9,
+          8.4
+        ],
+        "endurance": [
+          257,
+          255
+        ],
+        "strength": [
+          null,
+          null
+        ]
+      },
+      {
+        "score": 64,
+        "bmi": null,
+        "vital": [
+          3340,
+          3440
+        ],
+        "sprint": [
+          8.7,
+          8.6
+        ],
+        "jump": [
+          216,
+          218
+        ],
+        "sitReach": [
+          6.5,
+          7.0
+        ],
+        "endurance": [
+          262,
+          260
+        ],
+        "strength": [
+          11,
+          12
+        ]
+      },
+      {
+        "score": 62,
+        "bmi": null,
+        "vital": [
+          3220,
+          3320
+        ],
+        "sprint": [
+          8.9,
+          8.8
+        ],
+        "jump": [
+          212,
+          214
+        ],
+        "sitReach": [
+          5.1,
+          5.6
+        ],
+        "endurance": [
+          267,
+          265
+        ],
+        "strength": [
+          null,
+          null
+        ]
+      },
+      {
+        "score": 60,
+        "bmi": "≥28.0",
+        "vital": [
+          3100,
+          3200
+        ],
+        "sprint": [
+          9.1,
+          9.0
+        ],
+        "jump": [
+          208,
+          210
+        ],
+        "sitReach": [
+          3.7,
+          4.2
+        ],
+        "endurance": [
+          272,
+          270
+        ],
+        "strength": [
+          10,
+          11
+        ]
+      },
+      {
+        "score": 50,
+        "bmi": null,
+        "vital": [
+          2940,
+          3030
+        ],
+        "sprint": [
+          9.3,
+          9.2
+        ],
+        "jump": [
+          203,
+          205
+        ],
+        "sitReach": [
+          2.7,
+          3.2
+        ],
+        "endurance": [
+          292,
+          290
+        ],
+        "strength": [
+          9,
+          10
+        ]
+      },
+      {
+        "score": 40,
+        "bmi": null,
+        "vital": [
+          2780,
+          2860
+        ],
+        "sprint": [
+          9.5,
+          9.4
+        ],
+        "jump": [
+          198,
+          200
+        ],
+        "sitReach": [
+          1.7,
+          2.2
+        ],
+        "endurance": [
+          312,
+          310
+        ],
+        "strength": [
+          8,
+          9
+        ]
+      },
+      {
+        "score": 30,
+        "bmi": null,
+        "vital": [
+          2620,
+          2690
+        ],
+        "sprint": [
+          9.7,
+          9.6
+        ],
+        "jump": [
+          193,
+          195
+        ],
+        "sitReach": [
+          0.7,
+          1.2
+        ],
+        "endurance": [
+          332,
+          330
+        ],
+        "strength": [
+          7,
+          8
+        ]
+      },
+      {
+        "score": 20,
+        "bmi": null,
+        "vital": [
+          2460,
+          2520
+        ],
+        "sprint": [
+          9.9,
+          9.8
+        ],
+        "jump": [
+          188,
+          190
+        ],
+        "sitReach": [
+          -0.3,
+          0.2
+        ],
+        "endurance": [
+          352,
+          350
+        ],
+        "strength": [
+          6,
+          7
+        ]
+      }
+    ],
+    "female": [
+      {
+        "score": 100,
+        "bmi": "17.2~23.9",
+        "vital": [
+          3400,
+          3450
+        ],
+        "sprint": [
+          7.5,
+          7.4
+        ],
+        "jump": [
+          207,
+          208
+        ],
+        "sitReach": [
+          25.8,
+          26.3
+        ],
+        "endurance": [
+          198,
+          196
+        ],
+        "strength": [
+          56,
+          57
+        ]
+      },
+      {
+        "score": 95,
+        "bmi": null,
+        "vital": [
+          3350,
+          3400
+        ],
+        "sprint": [
+          7.6,
+          7.5
+        ],
+        "jump": [
+          201,
+          202
+        ],
+        "sitReach": [
+          24.0,
+          24.4
+        ],
+        "endurance": [
+          204,
+          202
+        ],
+        "strength": [
+          54,
+          55
+        ]
+      },
+      {
+        "score": 90,
+        "bmi": null,
+        "vital": [
+          3300,
+          3350
+        ],
+        "sprint": [
+          7.7,
+          7.6
+        ],
+        "jump": [
+          195,
+          196
+        ],
+        "sitReach": [
+          22.2,
+          22.4
+        ],
+        "endurance": [
+          210,
+          208
+        ],
+        "strength": [
+          52,
+          53
+        ]
+      },
+      {
+        "score": 85,
+        "bmi": null,
+        "vital": [
+          3150,
+          3200
+        ],
+        "sprint": [
+          8.0,
+          7.9
+        ],
+        "jump": [
+          188,
+          189
+        ],
+        "sitReach": [
+          20.6,
+          21.0
+        ],
+        "endurance": [
+          217,
+          215
+        ],
+        "strength": [
+          49,
+          50
+        ]
+      },
+      {
+        "score": 80,
+        "bmi": "24.0-27.9，≤17.1",
+        "vital": [
+          3000,
+          3050
+        ],
+        "sprint": [
+          8.3,
+          8.2
+        ],
+        "jump": [
+          181,
+          182
+        ],
+        "sitReach": [
+          19.0,
+          19.5
+        ],
+        "endurance": [
+          224,
+          222
+        ],
+        "strength": [
+          46,
+          47
+        ]
+      },
+      {
+        "score": 78,
+        "bmi": null,
+        "vital": [
+          2900,
+          2950
+        ],
+        "sprint": [
+          8.5,
+          8.4
+        ],
+        "jump": [
+          178,
+          179
+        ],
+        "sitReach": [
+          17.7,
+          18.2
+        ],
+        "endurance": [
+          229,
+          227
+        ],
+        "strength": [
+          44,
+          45
+        ]
+      },
+      {
+        "score": 76,
+        "bmi": null,
+        "vital": [
+          2800,
+          2850
+        ],
+        "sprint": [
+          8.7,
+          8.6
+        ],
+        "jump": [
+          175,
+          176
+        ],
+        "sitReach": [
+          16.4,
+          16.9
+        ],
+        "endurance": [
+          234,
+          232
+        ],
+        "strength": [
+          42,
+          43
+        ]
+      },
+      {
+        "score": 74,
+        "bmi": null,
+        "vital": [
+          2700,
+          2750
+        ],
+        "sprint": [
+          8.9,
+          8.8
+        ],
+        "jump": [
+          172,
+          173
+        ],
+        "sitReach": [
+          15.1,
+          15.6
+        ],
+        "endurance": [
+          239,
+          237
+        ],
+        "strength": [
+          40,
+          41
+        ]
+      },
+      {
+        "score": 72,
+        "bmi": null,
+        "vital": [
+          2600,
+          2650
+        ],
+        "sprint": [
+          9.1,
+          9.0
+        ],
+        "jump": [
+          169,
+          170
+        ],
+        "sitReach": [
+          13.8,
+          14.3
+        ],
+        "endurance": [
+          244,
+          242
+        ],
+        "strength": [
+          38,
+          39
+        ]
+      },
+      {
+        "score": 70,
+        "bmi": null,
+        "vital": [
+          2500,
+          2550
+        ],
+        "sprint": [
+          9.3,
+          9.2
+        ],
+        "jump": [
+          166,
+          167
+        ],
+        "sitReach": [
+          12.5,
+          13.0
+        ],
+        "endurance": [
+          249,
+          247
+        ],
+        "strength": [
+          36,
+          37
+        ]
+      },
+      {
+        "score": 68,
+        "bmi": null,
+        "vital": [
+          2400,
+          2450
+        ],
+        "sprint": [
+          9.5,
+          9.4
+        ],
+        "jump": [
+          163,
+          164
+        ],
+        "sitReach": [
+          11.2,
+          11.7
+        ],
+        "endurance": [
+          254,
+          252
+        ],
+        "strength": [
+          34,
+          35
+        ]
+      },
+      {
+        "score": 66,
+        "bmi": null,
+        "vital": [
+          2300,
+          2350
+        ],
+        "sprint": [
+          9.7,
+          9.6
+        ],
+        "jump": [
+          160,
+          161
+        ],
+        "sitReach": [
+          9.9,
+          10.4
+        ],
+        "endurance": [
+          259,
+          257
+        ],
+        "strength": [
+          32,
+          33
+        ]
+      },
+      {
+        "score": 64,
+        "bmi": null,
+        "vital": [
+          2200,
+          2250
+        ],
+        "sprint": [
+          9.9,
+          9.8
+        ],
+        "jump": [
+          157,
+          158
+        ],
+        "sitReach": [
+          8.6,
+          9.1
+        ],
+        "endurance": [
+          264,
+          262
+        ],
+        "strength": [
+          30,
+          31
+        ]
+      },
+      {
+        "score": 62,
+        "bmi": null,
+        "vital": [
+          2100,
+          2150
+        ],
+        "sprint": [
+          10.1,
+          10.0
+        ],
+        "jump": [
+          154,
+          155
+        ],
+        "sitReach": [
+          7.3,
+          7.8
+        ],
+        "endurance": [
+          269,
+          267
+        ],
+        "strength": [
+          28,
+          29
+        ]
+      },
+      {
+        "score": 60,
+        "bmi": "≥28.0",
+        "vital": [
+          2000,
+          2050
+        ],
+        "sprint": [
+          10.3,
+          10.2
+        ],
+        "jump": [
+          151,
+          152
+        ],
+        "sitReach": [
+          6.0,
+          6.5
+        ],
+        "endurance": [
+          274,
+          272
+        ],
+        "strength": [
+          26,
+          27
+        ]
+      },
+      {
+        "score": 50,
+        "bmi": null,
+        "vital": [
+          1960,
+          2010
+        ],
+        "sprint": [
+          10.5,
+          10.4
+        ],
+        "jump": [
+          146,
+          147
+        ],
+        "sitReach": [
+          5.2,
+          5.7
+        ],
+        "endurance": [
+          284,
+          282
+        ],
+        "strength": [
+          24,
+          25
+        ]
+      },
+      {
+        "score": 40,
+        "bmi": null,
+        "vital": [
+          1920,
+          1970
+        ],
+        "sprint": [
+          10.7,
+          10.6
+        ],
+        "jump": [
+          141,
+          142
+        ],
+        "sitReach": [
+          4.4,
+          4.9
+        ],
+        "endurance": [
+          294,
+          292
+        ],
+        "strength": [
+          22,
+          23
+        ]
+      },
+      {
+        "score": 30,
+        "bmi": null,
+        "vital": [
+          1880,
+          1930
+        ],
+        "sprint": [
+          10.9,
+          10.8
+        ],
+        "jump": [
+          136,
+          137
+        ],
+        "sitReach": [
+          3.6,
+          4.1
+        ],
+        "endurance": [
+          304,
+          302
+        ],
+        "strength": [
+          20,
+          21
+        ]
+      },
+      {
+        "score": 20,
+        "bmi": null,
+        "vital": [
+          1840,
+          1890
+        ],
+        "sprint": [
+          11.1,
+          11.0
+        ],
+        "jump": [
+          131,
+          132
+        ],
+        "sitReach": [
+          2.8,
+          3.3
+        ],
+        "endurance": [
+          314,
+          312
+        ],
+        "strength": [
+          18,
+          19
+        ]
+      }
+    ]
+  },
+  "legacyStandard": {
+    "source": "南京大学体育部体测评分标准等要求.xls",
+    "2400m": {
+      "male": [
+        {
+          "gender": "male",
+          "seconds": 600.0,
+          "score": 100.0
+        },
+        {
+          "gender": "male",
+          "seconds": 601.0,
+          "score": 99.6
+        },
+        {
+          "gender": "male",
+          "seconds": 602.0,
+          "score": 99.2
+        },
+        {
+          "gender": "male",
+          "seconds": 603.0,
+          "score": 98.8
+        },
+        {
+          "gender": "male",
+          "seconds": 604.0,
+          "score": 98.4
+        },
+        {
+          "gender": "male",
+          "seconds": 605.0,
+          "score": 98.0
+        },
+        {
+          "gender": "male",
+          "seconds": 606.0,
+          "score": 97.6
+        },
+        {
+          "gender": "male",
+          "seconds": 607.0,
+          "score": 97.2
+        },
+        {
+          "gender": "male",
+          "seconds": 608.0,
+          "score": 96.8
+        },
+        {
+          "gender": "male",
+          "seconds": 609.0,
+          "score": 96.4
+        },
+        {
+          "gender": "male",
+          "seconds": 610.0,
+          "score": 96.0
+        },
+        {
+          "gender": "male",
+          "seconds": 611.0,
+          "score": 95.6
+        },
+        {
+          "gender": "male",
+          "seconds": 612.0,
+          "score": 95.2
+        },
+        {
+          "gender": "male",
+          "seconds": 613.0,
+          "score": 94.8
+        },
+        {
+          "gender": "male",
+          "seconds": 614.0,
+          "score": 94.4
+        },
+        {
+          "gender": "male",
+          "seconds": 615.0,
+          "score": 94.0
+        },
+        {
+          "gender": "male",
+          "seconds": 616.0,
+          "score": 93.6
+        },
+        {
+          "gender": "male",
+          "seconds": 617.0,
+          "score": 93.2
+        },
+        {
+          "gender": "male",
+          "seconds": 618.0,
+          "score": 92.8
+        },
+        {
+          "gender": "male",
+          "seconds": 619.0,
+          "score": 92.4
+        },
+        {
+          "gender": "male",
+          "seconds": 620.0,
+          "score": 92.0
+        },
+        {
+          "gender": "male",
+          "seconds": 621.0,
+          "score": 91.6
+        },
+        {
+          "gender": "male",
+          "seconds": 622.0,
+          "score": 91.2
+        },
+        {
+          "gender": "male",
+          "seconds": 623.0,
+          "score": 90.8
+        },
+        {
+          "gender": "male",
+          "seconds": 624.0,
+          "score": 90.4
+        },
+        {
+          "gender": "male",
+          "seconds": 625.0,
+          "score": 90.0
+        },
+        {
+          "gender": "male",
+          "seconds": 626.0,
+          "score": 89.6
+        },
+        {
+          "gender": "male",
+          "seconds": 627.0,
+          "score": 89.2
+        },
+        {
+          "gender": "male",
+          "seconds": 628.0,
+          "score": 88.8
+        },
+        {
+          "gender": "male",
+          "seconds": 629.0,
+          "score": 88.4
+        },
+        {
+          "gender": "male",
+          "seconds": 630.0,
+          "score": 88.0
+        },
+        {
+          "gender": "male",
+          "seconds": 631.0,
+          "score": 87.8
+        },
+        {
+          "gender": "male",
+          "seconds": 632.0,
+          "score": 87.6
+        },
+        {
+          "gender": "male",
+          "seconds": 633.0,
+          "score": 87.4
+        },
+        {
+          "gender": "male",
+          "seconds": 634.0,
+          "score": 87.2
+        },
+        {
+          "gender": "male",
+          "seconds": 635.0,
+          "score": 87.0
+        },
+        {
+          "gender": "male",
+          "seconds": 636.0,
+          "score": 86.8
+        },
+        {
+          "gender": "male",
+          "seconds": 637.0,
+          "score": 86.6
+        },
+        {
+          "gender": "male",
+          "seconds": 638.0,
+          "score": 86.4
+        },
+        {
+          "gender": "male",
+          "seconds": 639.0,
+          "score": 86.2
+        },
+        {
+          "gender": "male",
+          "seconds": 640.0,
+          "score": 86.0
+        },
+        {
+          "gender": "male",
+          "seconds": 641.0,
+          "score": 85.8
+        },
+        {
+          "gender": "male",
+          "seconds": 642.0,
+          "score": 85.6
+        },
+        {
+          "gender": "male",
+          "seconds": 643.0,
+          "score": 85.4
+        },
+        {
+          "gender": "male",
+          "seconds": 644.0,
+          "score": 85.2
+        },
+        {
+          "gender": "male",
+          "seconds": 645.0,
+          "score": 85.0
+        },
+        {
+          "gender": "male",
+          "seconds": 646.0,
+          "score": 84.8
+        },
+        {
+          "gender": "male",
+          "seconds": 647.0,
+          "score": 84.6
+        },
+        {
+          "gender": "male",
+          "seconds": 648.0,
+          "score": 84.4
+        },
+        {
+          "gender": "male",
+          "seconds": 649.0,
+          "score": 84.2
+        },
+        {
+          "gender": "male",
+          "seconds": 650.0,
+          "score": 84.0
+        },
+        {
+          "gender": "male",
+          "seconds": 651.0,
+          "score": 83.8
+        },
+        {
+          "gender": "male",
+          "seconds": 652.0,
+          "score": 83.6
+        },
+        {
+          "gender": "male",
+          "seconds": 653.0,
+          "score": 83.4
+        },
+        {
+          "gender": "male",
+          "seconds": 654.0,
+          "score": 83.2
+        },
+        {
+          "gender": "male",
+          "seconds": 655.0,
+          "score": 83.0
+        },
+        {
+          "gender": "male",
+          "seconds": 656.0,
+          "score": 82.8
+        },
+        {
+          "gender": "male",
+          "seconds": 657.0,
+          "score": 82.6
+        },
+        {
+          "gender": "male",
+          "seconds": 658.0,
+          "score": 82.4
+        },
+        {
+          "gender": "male",
+          "seconds": 659.0,
+          "score": 82.2
+        },
+        {
+          "gender": "male",
+          "seconds": 660.0,
+          "score": 82.0
+        },
+        {
+          "gender": "male",
+          "seconds": 661.0,
+          "score": 81.8
+        },
+        {
+          "gender": "male",
+          "seconds": 662.0,
+          "score": 81.6
+        },
+        {
+          "gender": "male",
+          "seconds": 663.0,
+          "score": 81.4
+        },
+        {
+          "gender": "male",
+          "seconds": 664.0,
+          "score": 81.2
+        },
+        {
+          "gender": "male",
+          "seconds": 665.0,
+          "score": 81.0
+        },
+        {
+          "gender": "male",
+          "seconds": 666.0,
+          "score": 80.8
+        },
+        {
+          "gender": "male",
+          "seconds": 667.0,
+          "score": 80.6
+        },
+        {
+          "gender": "male",
+          "seconds": 668.0,
+          "score": 80.4
+        },
+        {
+          "gender": "male",
+          "seconds": 669.0,
+          "score": 80.2
+        },
+        {
+          "gender": "male",
+          "seconds": 670.0,
+          "score": 80.0
+        },
+        {
+          "gender": "male",
+          "seconds": 671.0,
+          "score": 79.8
+        },
+        {
+          "gender": "male",
+          "seconds": 672.0,
+          "score": 79.6
+        },
+        {
+          "gender": "male",
+          "seconds": 673.0,
+          "score": 79.4
+        },
+        {
+          "gender": "male",
+          "seconds": 674.0,
+          "score": 79.2
+        },
+        {
+          "gender": "male",
+          "seconds": 675.0,
+          "score": 79.0
+        },
+        {
+          "gender": "male",
+          "seconds": 676.0,
+          "score": 78.8
+        },
+        {
+          "gender": "male",
+          "seconds": 677.0,
+          "score": 78.6
+        },
+        {
+          "gender": "male",
+          "seconds": 678.0,
+          "score": 78.4
+        },
+        {
+          "gender": "male",
+          "seconds": 679.0,
+          "score": 78.2
+        },
+        {
+          "gender": "male",
+          "seconds": 680.0,
+          "score": 78.0
+        },
+        {
+          "gender": "male",
+          "seconds": 681.0,
+          "score": 77.8
+        },
+        {
+          "gender": "male",
+          "seconds": 682.0,
+          "score": 77.6
+        },
+        {
+          "gender": "male",
+          "seconds": 683.0,
+          "score": 77.4
+        },
+        {
+          "gender": "male",
+          "seconds": 684.0,
+          "score": 77.2
+        },
+        {
+          "gender": "male",
+          "seconds": 685.0,
+          "score": 77.0
+        },
+        {
+          "gender": "male",
+          "seconds": 686.0,
+          "score": 76.8
+        },
+        {
+          "gender": "male",
+          "seconds": 687.0,
+          "score": 76.6
+        },
+        {
+          "gender": "male",
+          "seconds": 688.0,
+          "score": 76.4
+        },
+        {
+          "gender": "male",
+          "seconds": 689.0,
+          "score": 76.2
+        },
+        {
+          "gender": "male",
+          "seconds": 690.0,
+          "score": 76.0
+        },
+        {
+          "gender": "male",
+          "seconds": 691.0,
+          "score": 75.8
+        },
+        {
+          "gender": "male",
+          "seconds": 692.0,
+          "score": 75.6
+        },
+        {
+          "gender": "male",
+          "seconds": 693.0,
+          "score": 75.4
+        },
+        {
+          "gender": "male",
+          "seconds": 694.0,
+          "score": 75.2
+        },
+        {
+          "gender": "male",
+          "seconds": 695.0,
+          "score": 75.0
+        },
+        {
+          "gender": "male",
+          "seconds": 696.0,
+          "score": 74.8
+        },
+        {
+          "gender": "male",
+          "seconds": 697.0,
+          "score": 74.6
+        },
+        {
+          "gender": "male",
+          "seconds": 698.0,
+          "score": 74.4
+        },
+        {
+          "gender": "male",
+          "seconds": 699.0,
+          "score": 74.2
+        },
+        {
+          "gender": "male",
+          "seconds": 700.0,
+          "score": 74.0
+        },
+        {
+          "gender": "male",
+          "seconds": 701.0,
+          "score": 73.8
+        },
+        {
+          "gender": "male",
+          "seconds": 702.0,
+          "score": 73.6
+        },
+        {
+          "gender": "male",
+          "seconds": 703.0,
+          "score": 73.4
+        },
+        {
+          "gender": "male",
+          "seconds": 704.0,
+          "score": 73.2
+        },
+        {
+          "gender": "male",
+          "seconds": 705.0,
+          "score": 73.0
+        },
+        {
+          "gender": "male",
+          "seconds": 706.0,
+          "score": 72.8
+        },
+        {
+          "gender": "male",
+          "seconds": 707.0,
+          "score": 72.6
+        },
+        {
+          "gender": "male",
+          "seconds": 708.0,
+          "score": 72.4
+        },
+        {
+          "gender": "male",
+          "seconds": 709.0,
+          "score": 72.2
+        },
+        {
+          "gender": "male",
+          "seconds": 710.0,
+          "score": 72.0
+        },
+        {
+          "gender": "male",
+          "seconds": 711.0,
+          "score": 71.8
+        },
+        {
+          "gender": "male",
+          "seconds": 712.0,
+          "score": 71.6
+        },
+        {
+          "gender": "male",
+          "seconds": 713.0,
+          "score": 71.4
+        },
+        {
+          "gender": "male",
+          "seconds": 714.0,
+          "score": 71.2
+        },
+        {
+          "gender": "male",
+          "seconds": 715.0,
+          "score": 71.0
+        },
+        {
+          "gender": "male",
+          "seconds": 716.0,
+          "score": 70.8
+        },
+        {
+          "gender": "male",
+          "seconds": 717.0,
+          "score": 70.6
+        },
+        {
+          "gender": "male",
+          "seconds": 718.0,
+          "score": 70.4
+        },
+        {
+          "gender": "male",
+          "seconds": 719.0,
+          "score": 70.2
+        },
+        {
+          "gender": "male",
+          "seconds": 720.0,
+          "score": 70.0
+        },
+        {
+          "gender": "male",
+          "seconds": 721.0,
+          "score": 69.8
+        },
+        {
+          "gender": "male",
+          "seconds": 722.0,
+          "score": 69.6
+        },
+        {
+          "gender": "male",
+          "seconds": 723.0,
+          "score": 69.4
+        },
+        {
+          "gender": "male",
+          "seconds": 724.0,
+          "score": 69.2
+        },
+        {
+          "gender": "male",
+          "seconds": 725.0,
+          "score": 69.0
+        },
+        {
+          "gender": "male",
+          "seconds": 726.0,
+          "score": 68.8
+        },
+        {
+          "gender": "male",
+          "seconds": 727.0,
+          "score": 68.6
+        },
+        {
+          "gender": "male",
+          "seconds": 728.0,
+          "score": 68.4
+        },
+        {
+          "gender": "male",
+          "seconds": 729.0,
+          "score": 68.2
+        },
+        {
+          "gender": "male",
+          "seconds": 730.0,
+          "score": 68.0
+        },
+        {
+          "gender": "male",
+          "seconds": 731.0,
+          "score": 67.9
+        },
+        {
+          "gender": "male",
+          "seconds": 732.0,
+          "score": 67.8
+        },
+        {
+          "gender": "male",
+          "seconds": 733.0,
+          "score": 67.7
+        },
+        {
+          "gender": "male",
+          "seconds": 734.0,
+          "score": 67.6
+        },
+        {
+          "gender": "male",
+          "seconds": 735.0,
+          "score": 67.5
+        },
+        {
+          "gender": "male",
+          "seconds": 736.0,
+          "score": 67.4
+        },
+        {
+          "gender": "male",
+          "seconds": 737.0,
+          "score": 67.3
+        },
+        {
+          "gender": "male",
+          "seconds": 738.0,
+          "score": 67.2
+        },
+        {
+          "gender": "male",
+          "seconds": 739.0,
+          "score": 67.1
+        },
+        {
+          "gender": "male",
+          "seconds": 740.0,
+          "score": 67.0
+        },
+        {
+          "gender": "male",
+          "seconds": 741.0,
+          "score": 66.9
+        },
+        {
+          "gender": "male",
+          "seconds": 742.0,
+          "score": 66.8
+        },
+        {
+          "gender": "male",
+          "seconds": 743.0,
+          "score": 66.7
+        },
+        {
+          "gender": "male",
+          "seconds": 744.0,
+          "score": 66.6
+        },
+        {
+          "gender": "male",
+          "seconds": 745.0,
+          "score": 66.5
+        },
+        {
+          "gender": "male",
+          "seconds": 746.0,
+          "score": 66.4
+        },
+        {
+          "gender": "male",
+          "seconds": 747.0,
+          "score": 66.3
+        },
+        {
+          "gender": "male",
+          "seconds": 748.0,
+          "score": 66.2
+        },
+        {
+          "gender": "male",
+          "seconds": 749.0,
+          "score": 66.1
+        },
+        {
+          "gender": "male",
+          "seconds": 750.0,
+          "score": 66.0
+        },
+        {
+          "gender": "male",
+          "seconds": 751.0,
+          "score": 65.9
+        },
+        {
+          "gender": "male",
+          "seconds": 752.0,
+          "score": 65.8
+        },
+        {
+          "gender": "male",
+          "seconds": 753.0,
+          "score": 65.7
+        },
+        {
+          "gender": "male",
+          "seconds": 754.0,
+          "score": 65.6
+        },
+        {
+          "gender": "male",
+          "seconds": 755.0,
+          "score": 65.5
+        },
+        {
+          "gender": "male",
+          "seconds": 756.0,
+          "score": 65.4
+        },
+        {
+          "gender": "male",
+          "seconds": 757.0,
+          "score": 65.3
+        },
+        {
+          "gender": "male",
+          "seconds": 758.0,
+          "score": 65.2
+        },
+        {
+          "gender": "male",
+          "seconds": 759.0,
+          "score": 65.1
+        },
+        {
+          "gender": "male",
+          "seconds": 760.0,
+          "score": 65.0
+        },
+        {
+          "gender": "male",
+          "seconds": 761.0,
+          "score": 64.9
+        },
+        {
+          "gender": "male",
+          "seconds": 762.0,
+          "score": 64.8
+        },
+        {
+          "gender": "male",
+          "seconds": 763.0,
+          "score": 64.7
+        },
+        {
+          "gender": "male",
+          "seconds": 764.0,
+          "score": 64.6
+        },
+        {
+          "gender": "male",
+          "seconds": 765.0,
+          "score": 64.5
+        },
+        {
+          "gender": "male",
+          "seconds": 766.0,
+          "score": 64.4
+        },
+        {
+          "gender": "male",
+          "seconds": 767.0,
+          "score": 64.3
+        },
+        {
+          "gender": "male",
+          "seconds": 768.0,
+          "score": 64.2
+        },
+        {
+          "gender": "male",
+          "seconds": 769.0,
+          "score": 64.1
+        },
+        {
+          "gender": "male",
+          "seconds": 770.0,
+          "score": 64.0
+        },
+        {
+          "gender": "male",
+          "seconds": 771.0,
+          "score": 63.9
+        },
+        {
+          "gender": "male",
+          "seconds": 772.0,
+          "score": 63.8
+        },
+        {
+          "gender": "male",
+          "seconds": 773.0,
+          "score": 63.7
+        },
+        {
+          "gender": "male",
+          "seconds": 774.0,
+          "score": 63.6
+        },
+        {
+          "gender": "male",
+          "seconds": 775.0,
+          "score": 63.5
+        },
+        {
+          "gender": "male",
+          "seconds": 776.0,
+          "score": 63.4
+        },
+        {
+          "gender": "male",
+          "seconds": 777.0,
+          "score": 63.3
+        },
+        {
+          "gender": "male",
+          "seconds": 778.0,
+          "score": 63.2
+        },
+        {
+          "gender": "male",
+          "seconds": 779.0,
+          "score": 63.1
+        },
+        {
+          "gender": "male",
+          "seconds": 780.0,
+          "score": 63.0
+        },
+        {
+          "gender": "male",
+          "seconds": 781.0,
+          "score": 62.9
+        },
+        {
+          "gender": "male",
+          "seconds": 782.0,
+          "score": 62.8
+        },
+        {
+          "gender": "male",
+          "seconds": 783.0,
+          "score": 62.7
+        },
+        {
+          "gender": "male",
+          "seconds": 784.0,
+          "score": 62.6
+        },
+        {
+          "gender": "male",
+          "seconds": 785.0,
+          "score": 62.5
+        },
+        {
+          "gender": "male",
+          "seconds": 786.0,
+          "score": 62.4
+        },
+        {
+          "gender": "male",
+          "seconds": 787.0,
+          "score": 62.3
+        },
+        {
+          "gender": "male",
+          "seconds": 788.0,
+          "score": 62.2
+        },
+        {
+          "gender": "male",
+          "seconds": 789.0,
+          "score": 62.1
+        },
+        {
+          "gender": "male",
+          "seconds": 790.0,
+          "score": 62.0
+        },
+        {
+          "gender": "male",
+          "seconds": 791.0,
+          "score": 61.9
+        },
+        {
+          "gender": "male",
+          "seconds": 792.0,
+          "score": 61.8
+        },
+        {
+          "gender": "male",
+          "seconds": 793.0,
+          "score": 61.7
+        },
+        {
+          "gender": "male",
+          "seconds": 794.0,
+          "score": 61.6
+        },
+        {
+          "gender": "male",
+          "seconds": 795.0,
+          "score": 61.5
+        },
+        {
+          "gender": "male",
+          "seconds": 796.0,
+          "score": 61.4
+        },
+        {
+          "gender": "male",
+          "seconds": 797.0,
+          "score": 61.3
+        },
+        {
+          "gender": "male",
+          "seconds": 798.0,
+          "score": 61.2
+        },
+        {
+          "gender": "male",
+          "seconds": 799.0,
+          "score": 61.1
+        },
+        {
+          "gender": "male",
+          "seconds": 800.0,
+          "score": 61.0
+        },
+        {
+          "gender": "male",
+          "seconds": 801.0,
+          "score": 60.9
+        },
+        {
+          "gender": "male",
+          "seconds": 802.0,
+          "score": 60.8
+        },
+        {
+          "gender": "male",
+          "seconds": 803.0,
+          "score": 60.7
+        },
+        {
+          "gender": "male",
+          "seconds": 804.0,
+          "score": 60.6
+        },
+        {
+          "gender": "male",
+          "seconds": 805.0,
+          "score": 60.5
+        },
+        {
+          "gender": "male",
+          "seconds": 806.0,
+          "score": 60.4
+        },
+        {
+          "gender": "male",
+          "seconds": 807.0,
+          "score": 60.3
+        },
+        {
+          "gender": "male",
+          "seconds": 808.0,
+          "score": 60.2
+        },
+        {
+          "gender": "male",
+          "seconds": 809.0,
+          "score": 60.1
+        },
+        {
+          "gender": "male",
+          "seconds": 810.0,
+          "score": 60.0
+        },
+        {
+          "gender": "male",
+          "seconds": 811.0,
+          "score": 59.9
+        },
+        {
+          "gender": "male",
+          "seconds": 812.0,
+          "score": 59.8
+        },
+        {
+          "gender": "male",
+          "seconds": 813.0,
+          "score": 59.7
+        },
+        {
+          "gender": "male",
+          "seconds": 814.0,
+          "score": 59.6
+        },
+        {
+          "gender": "male",
+          "seconds": 815.0,
+          "score": 59.5
+        },
+        {
+          "gender": "male",
+          "seconds": 816.0,
+          "score": 59.4
+        },
+        {
+          "gender": "male",
+          "seconds": 817.0,
+          "score": 59.3
+        },
+        {
+          "gender": "male",
+          "seconds": 818.0,
+          "score": 59.2
+        },
+        {
+          "gender": "male",
+          "seconds": 819.0,
+          "score": 59.1
+        },
+        {
+          "gender": "male",
+          "seconds": 820.0,
+          "score": 59.0
+        },
+        {
+          "gender": "male",
+          "seconds": 821.0,
+          "score": 58.9
+        },
+        {
+          "gender": "male",
+          "seconds": 822.0,
+          "score": 58.8
+        },
+        {
+          "gender": "male",
+          "seconds": 823.0,
+          "score": 58.7
+        },
+        {
+          "gender": "male",
+          "seconds": 824.0,
+          "score": 58.6
+        },
+        {
+          "gender": "male",
+          "seconds": 825.0,
+          "score": 58.5
+        },
+        {
+          "gender": "male",
+          "seconds": 826.0,
+          "score": 58.4
+        },
+        {
+          "gender": "male",
+          "seconds": 827.0,
+          "score": 58.3
+        },
+        {
+          "gender": "male",
+          "seconds": 828.0,
+          "score": 58.2
+        },
+        {
+          "gender": "male",
+          "seconds": 829.0,
+          "score": 58.1
+        },
+        {
+          "gender": "male",
+          "seconds": 830.0,
+          "score": 58.0
+        },
+        {
+          "gender": "male",
+          "seconds": 831.0,
+          "score": 57.9
+        },
+        {
+          "gender": "male",
+          "seconds": 832.0,
+          "score": 57.8
+        },
+        {
+          "gender": "male",
+          "seconds": 833.0,
+          "score": 57.7
+        },
+        {
+          "gender": "male",
+          "seconds": 834.0,
+          "score": 57.6
+        },
+        {
+          "gender": "male",
+          "seconds": 835.0,
+          "score": 57.5
+        },
+        {
+          "gender": "male",
+          "seconds": 836.0,
+          "score": 57.4
+        },
+        {
+          "gender": "male",
+          "seconds": 837.0,
+          "score": 57.3
+        },
+        {
+          "gender": "male",
+          "seconds": 838.0,
+          "score": 57.2
+        },
+        {
+          "gender": "male",
+          "seconds": 839.0,
+          "score": 57.1
+        },
+        {
+          "gender": "male",
+          "seconds": 840.0,
+          "score": 57.0
+        },
+        {
+          "gender": "male",
+          "seconds": 841.0,
+          "score": 56.9
+        },
+        {
+          "gender": "male",
+          "seconds": 842.0,
+          "score": 56.8
+        },
+        {
+          "gender": "male",
+          "seconds": 843.0,
+          "score": 56.7
+        },
+        {
+          "gender": "male",
+          "seconds": 844.0,
+          "score": 56.6
+        },
+        {
+          "gender": "male",
+          "seconds": 845.0,
+          "score": 56.5
+        },
+        {
+          "gender": "male",
+          "seconds": 846.0,
+          "score": 56.4
+        },
+        {
+          "gender": "male",
+          "seconds": 847.0,
+          "score": 56.3
+        },
+        {
+          "gender": "male",
+          "seconds": 848.0,
+          "score": 56.2
+        },
+        {
+          "gender": "male",
+          "seconds": 849.0,
+          "score": 56.1
+        },
+        {
+          "gender": "male",
+          "seconds": 850.0,
+          "score": 56.0
+        },
+        {
+          "gender": "male",
+          "seconds": 851.0,
+          "score": 55.9
+        },
+        {
+          "gender": "male",
+          "seconds": 852.0,
+          "score": 55.8
+        },
+        {
+          "gender": "male",
+          "seconds": 853.0,
+          "score": 55.7
+        },
+        {
+          "gender": "male",
+          "seconds": 854.0,
+          "score": 55.6
+        },
+        {
+          "gender": "male",
+          "seconds": 855.0,
+          "score": 55.5
+        },
+        {
+          "gender": "male",
+          "seconds": 856.0,
+          "score": 55.4
+        },
+        {
+          "gender": "male",
+          "seconds": 857.0,
+          "score": 55.3
+        },
+        {
+          "gender": "male",
+          "seconds": 858.0,
+          "score": 55.2
+        },
+        {
+          "gender": "male",
+          "seconds": 859.0,
+          "score": 55.1
+        },
+        {
+          "gender": "male",
+          "seconds": 860.0,
+          "score": 55.0
+        },
+        {
+          "gender": "male",
+          "seconds": 861.0,
+          "score": 54.9
+        },
+        {
+          "gender": "male",
+          "seconds": 862.0,
+          "score": 54.8
+        },
+        {
+          "gender": "male",
+          "seconds": 863.0,
+          "score": 54.7
+        },
+        {
+          "gender": "male",
+          "seconds": 864.0,
+          "score": 54.6
+        },
+        {
+          "gender": "male",
+          "seconds": 865.0,
+          "score": 54.5
+        },
+        {
+          "gender": "male",
+          "seconds": 866.0,
+          "score": 54.4
+        },
+        {
+          "gender": "male",
+          "seconds": 867.0,
+          "score": 54.3
+        },
+        {
+          "gender": "male",
+          "seconds": 868.0,
+          "score": 54.2
+        },
+        {
+          "gender": "male",
+          "seconds": 869.0,
+          "score": 54.1
+        },
+        {
+          "gender": "male",
+          "seconds": 870.0,
+          "score": 54.0
+        },
+        {
+          "gender": "male",
+          "seconds": 871.0,
+          "score": 53.9
+        },
+        {
+          "gender": "male",
+          "seconds": 872.0,
+          "score": 53.8
+        },
+        {
+          "gender": "male",
+          "seconds": 873.0,
+          "score": 53.7
+        },
+        {
+          "gender": "male",
+          "seconds": 874.0,
+          "score": 53.6
+        },
+        {
+          "gender": "male",
+          "seconds": 875.0,
+          "score": 53.5
+        },
+        {
+          "gender": "male",
+          "seconds": 876.0,
+          "score": 53.4
+        },
+        {
+          "gender": "male",
+          "seconds": 877.0,
+          "score": 53.3
+        },
+        {
+          "gender": "male",
+          "seconds": 878.0,
+          "score": 53.2
+        },
+        {
+          "gender": "male",
+          "seconds": 879.0,
+          "score": 53.1
+        },
+        {
+          "gender": "male",
+          "seconds": 880.0,
+          "score": 53.0
+        },
+        {
+          "gender": "male",
+          "seconds": 881.0,
+          "score": 52.9
+        },
+        {
+          "gender": "male",
+          "seconds": 882.0,
+          "score": 52.8
+        },
+        {
+          "gender": "male",
+          "seconds": 883.0,
+          "score": 52.7
+        },
+        {
+          "gender": "male",
+          "seconds": 884.0,
+          "score": 52.6
+        },
+        {
+          "gender": "male",
+          "seconds": 885.0,
+          "score": 52.5
+        },
+        {
+          "gender": "male",
+          "seconds": 886.0,
+          "score": 52.4
+        },
+        {
+          "gender": "male",
+          "seconds": 887.0,
+          "score": 52.3
+        },
+        {
+          "gender": "male",
+          "seconds": 888.0,
+          "score": 52.2
+        },
+        {
+          "gender": "male",
+          "seconds": 889.0,
+          "score": 52.1
+        },
+        {
+          "gender": "male",
+          "seconds": 890.0,
+          "score": 52.0
+        },
+        {
+          "gender": "male",
+          "seconds": 891.0,
+          "score": 51.9
+        },
+        {
+          "gender": "male",
+          "seconds": 892.0,
+          "score": 51.8
+        },
+        {
+          "gender": "male",
+          "seconds": 893.0,
+          "score": 51.7
+        },
+        {
+          "gender": "male",
+          "seconds": 894.0,
+          "score": 51.6
+        },
+        {
+          "gender": "male",
+          "seconds": 895.0,
+          "score": 51.5
+        },
+        {
+          "gender": "male",
+          "seconds": 896.0,
+          "score": 51.4
+        },
+        {
+          "gender": "male",
+          "seconds": 897.0,
+          "score": 51.3
+        },
+        {
+          "gender": "male",
+          "seconds": 898.0,
+          "score": 51.2
+        },
+        {
+          "gender": "male",
+          "seconds": 899.0,
+          "score": 51.1
+        },
+        {
+          "gender": "male",
+          "seconds": 900.0,
+          "score": 51.0
+        },
+        {
+          "gender": "male",
+          "seconds": 901.0,
+          "score": 50.9
+        },
+        {
+          "gender": "male",
+          "seconds": 902.0,
+          "score": 50.8
+        },
+        {
+          "gender": "male",
+          "seconds": 903.0,
+          "score": 50.7
+        },
+        {
+          "gender": "male",
+          "seconds": 904.0,
+          "score": 50.6
+        },
+        {
+          "gender": "male",
+          "seconds": 905.0,
+          "score": 50.5
+        },
+        {
+          "gender": "male",
+          "seconds": 906.0,
+          "score": 50.4
+        },
+        {
+          "gender": "male",
+          "seconds": 907.0,
+          "score": 50.3
+        },
+        {
+          "gender": "male",
+          "seconds": 908.0,
+          "score": 50.2
+        },
+        {
+          "gender": "male",
+          "seconds": 909.0,
+          "score": 50.1
+        },
+        {
+          "gender": "male",
+          "seconds": 910.0,
+          "score": 50.0
+        },
+        {
+          "gender": "male",
+          "seconds": 911.0,
+          "score": 49.9
+        },
+        {
+          "gender": "male",
+          "seconds": 912.0,
+          "score": 49.8
+        },
+        {
+          "gender": "male",
+          "seconds": 913.0,
+          "score": 49.7
+        },
+        {
+          "gender": "male",
+          "seconds": 914.0,
+          "score": 49.6
+        },
+        {
+          "gender": "male",
+          "seconds": 915.0,
+          "score": 49.5
+        },
+        {
+          "gender": "male",
+          "seconds": 916.0,
+          "score": 49.4
+        },
+        {
+          "gender": "male",
+          "seconds": 917.0,
+          "score": 49.3
+        },
+        {
+          "gender": "male",
+          "seconds": 918.0,
+          "score": 49.2
+        },
+        {
+          "gender": "male",
+          "seconds": 919.0,
+          "score": 49.1
+        },
+        {
+          "gender": "male",
+          "seconds": 920.0,
+          "score": 49.0
+        },
+        {
+          "gender": "male",
+          "seconds": 921.0,
+          "score": 48.9
+        },
+        {
+          "gender": "male",
+          "seconds": 922.0,
+          "score": 48.8
+        },
+        {
+          "gender": "male",
+          "seconds": 923.0,
+          "score": 48.7
+        },
+        {
+          "gender": "male",
+          "seconds": 924.0,
+          "score": 48.6
+        },
+        {
+          "gender": "male",
+          "seconds": 925.0,
+          "score": 48.5
+        },
+        {
+          "gender": "male",
+          "seconds": 926.0,
+          "score": 48.4
+        },
+        {
+          "gender": "male",
+          "seconds": 927.0,
+          "score": 48.3
+        },
+        {
+          "gender": "male",
+          "seconds": 928.0,
+          "score": 48.2
+        },
+        {
+          "gender": "male",
+          "seconds": 929.0,
+          "score": 48.1
+        },
+        {
+          "gender": "male",
+          "seconds": 930.0,
+          "score": 48.0
+        },
+        {
+          "gender": "male",
+          "seconds": 931.0,
+          "score": 47.9
+        },
+        {
+          "gender": "male",
+          "seconds": 932.0,
+          "score": 47.8
+        },
+        {
+          "gender": "male",
+          "seconds": 933.0,
+          "score": 47.7
+        },
+        {
+          "gender": "male",
+          "seconds": 934.0,
+          "score": 47.6
+        },
+        {
+          "gender": "male",
+          "seconds": 935.0,
+          "score": 47.5
+        },
+        {
+          "gender": "male",
+          "seconds": 936.0,
+          "score": 47.4
+        },
+        {
+          "gender": "male",
+          "seconds": 937.0,
+          "score": 47.3
+        },
+        {
+          "gender": "male",
+          "seconds": 938.0,
+          "score": 47.2
+        },
+        {
+          "gender": "male",
+          "seconds": 939.0,
+          "score": 47.1
+        },
+        {
+          "gender": "male",
+          "seconds": 940.0,
+          "score": 47.0
+        },
+        {
+          "gender": "male",
+          "seconds": 941.0,
+          "score": 46.9
+        },
+        {
+          "gender": "male",
+          "seconds": 942.0,
+          "score": 46.8
+        },
+        {
+          "gender": "male",
+          "seconds": 943.0,
+          "score": 46.7
+        },
+        {
+          "gender": "male",
+          "seconds": 944.0,
+          "score": 46.6
+        },
+        {
+          "gender": "male",
+          "seconds": 945.0,
+          "score": 46.5
+        },
+        {
+          "gender": "male",
+          "seconds": 946.0,
+          "score": 46.4
+        },
+        {
+          "gender": "male",
+          "seconds": 947.0,
+          "score": 46.3
+        },
+        {
+          "gender": "male",
+          "seconds": 948.0,
+          "score": 46.2
+        },
+        {
+          "gender": "male",
+          "seconds": 949.0,
+          "score": 46.1
+        },
+        {
+          "gender": "male",
+          "seconds": 950.0,
+          "score": 46.0
+        },
+        {
+          "gender": "male",
+          "seconds": 951.0,
+          "score": 45.9
+        },
+        {
+          "gender": "male",
+          "seconds": 952.0,
+          "score": 45.8
+        },
+        {
+          "gender": "male",
+          "seconds": 953.0,
+          "score": 45.7
+        },
+        {
+          "gender": "male",
+          "seconds": 954.0,
+          "score": 45.6
+        },
+        {
+          "gender": "male",
+          "seconds": 955.0,
+          "score": 45.5
+        },
+        {
+          "gender": "male",
+          "seconds": 956.0,
+          "score": 45.4
+        },
+        {
+          "gender": "male",
+          "seconds": 957.0,
+          "score": 45.3
+        },
+        {
+          "gender": "male",
+          "seconds": 958.0,
+          "score": 45.2
+        },
+        {
+          "gender": "male",
+          "seconds": 959.0,
+          "score": 45.1
+        },
+        {
+          "gender": "male",
+          "seconds": 960.0,
+          "score": 45.0
+        },
+        {
+          "gender": "male",
+          "seconds": 961.0,
+          "score": 44.9
+        },
+        {
+          "gender": "male",
+          "seconds": 962.0,
+          "score": 44.8
+        },
+        {
+          "gender": "male",
+          "seconds": 963.0,
+          "score": 44.7
+        },
+        {
+          "gender": "male",
+          "seconds": 964.0,
+          "score": 44.6
+        },
+        {
+          "gender": "male",
+          "seconds": 965.0,
+          "score": 44.5
+        },
+        {
+          "gender": "male",
+          "seconds": 966.0,
+          "score": 44.4
+        },
+        {
+          "gender": "male",
+          "seconds": 967.0,
+          "score": 44.3
+        },
+        {
+          "gender": "male",
+          "seconds": 968.0,
+          "score": 44.2
+        },
+        {
+          "gender": "male",
+          "seconds": 969.0,
+          "score": 44.1
+        },
+        {
+          "gender": "male",
+          "seconds": 970.0,
+          "score": 44.0
+        },
+        {
+          "gender": "male",
+          "seconds": 971.0,
+          "score": 43.9
+        },
+        {
+          "gender": "male",
+          "seconds": 972.0,
+          "score": 43.8
+        },
+        {
+          "gender": "male",
+          "seconds": 973.0,
+          "score": 43.7
+        },
+        {
+          "gender": "male",
+          "seconds": 974.0,
+          "score": 43.6
+        },
+        {
+          "gender": "male",
+          "seconds": 975.0,
+          "score": 43.5
+        },
+        {
+          "gender": "male",
+          "seconds": 976.0,
+          "score": 43.4
+        },
+        {
+          "gender": "male",
+          "seconds": 977.0,
+          "score": 43.3
+        },
+        {
+          "gender": "male",
+          "seconds": 978.0,
+          "score": 43.2
+        },
+        {
+          "gender": "male",
+          "seconds": 979.0,
+          "score": 43.1
+        },
+        {
+          "gender": "male",
+          "seconds": 980.0,
+          "score": 43.0
+        },
+        {
+          "gender": "male",
+          "seconds": 981.0,
+          "score": 42.9
+        },
+        {
+          "gender": "male",
+          "seconds": 982.0,
+          "score": 42.8
+        },
+        {
+          "gender": "male",
+          "seconds": 983.0,
+          "score": 42.7
+        },
+        {
+          "gender": "male",
+          "seconds": 984.0,
+          "score": 42.6
+        },
+        {
+          "gender": "male",
+          "seconds": 985.0,
+          "score": 42.5
+        },
+        {
+          "gender": "male",
+          "seconds": 986.0,
+          "score": 42.4
+        },
+        {
+          "gender": "male",
+          "seconds": 987.0,
+          "score": 42.3
+        },
+        {
+          "gender": "male",
+          "seconds": 988.0,
+          "score": 42.2
+        },
+        {
+          "gender": "male",
+          "seconds": 989.0,
+          "score": 42.1
+        },
+        {
+          "gender": "male",
+          "seconds": 990.0,
+          "score": 42.0
+        },
+        {
+          "gender": "male",
+          "seconds": 991.0,
+          "score": 41.9
+        },
+        {
+          "gender": "male",
+          "seconds": 992.0,
+          "score": 41.8
+        },
+        {
+          "gender": "male",
+          "seconds": 993.0,
+          "score": 41.7
+        },
+        {
+          "gender": "male",
+          "seconds": 994.0,
+          "score": 41.6
+        },
+        {
+          "gender": "male",
+          "seconds": 995.0,
+          "score": 41.5
+        },
+        {
+          "gender": "male",
+          "seconds": 996.0,
+          "score": 41.4
+        },
+        {
+          "gender": "male",
+          "seconds": 997.0,
+          "score": 41.3
+        },
+        {
+          "gender": "male",
+          "seconds": 998.0,
+          "score": 41.2
+        },
+        {
+          "gender": "male",
+          "seconds": 999.0,
+          "score": 41.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1000.0,
+          "score": 41.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1001.0,
+          "score": 40.9
+        },
+        {
+          "gender": "male",
+          "seconds": 1002.0,
+          "score": 40.8
+        },
+        {
+          "gender": "male",
+          "seconds": 1003.0,
+          "score": 40.7
+        },
+        {
+          "gender": "male",
+          "seconds": 1004.0,
+          "score": 40.6
+        },
+        {
+          "gender": "male",
+          "seconds": 1005.0,
+          "score": 40.5
+        },
+        {
+          "gender": "male",
+          "seconds": 1006.0,
+          "score": 40.4
+        },
+        {
+          "gender": "male",
+          "seconds": 1007.0,
+          "score": 40.3
+        },
+        {
+          "gender": "male",
+          "seconds": 1008.0,
+          "score": 40.2
+        },
+        {
+          "gender": "male",
+          "seconds": 1009.0,
+          "score": 40.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1010.0,
+          "score": 40.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1011.0,
+          "score": 39.9
+        },
+        {
+          "gender": "male",
+          "seconds": 1012.0,
+          "score": 39.8
+        },
+        {
+          "gender": "male",
+          "seconds": 1013.0,
+          "score": 39.7
+        },
+        {
+          "gender": "male",
+          "seconds": 1014.0,
+          "score": 39.6
+        },
+        {
+          "gender": "male",
+          "seconds": 1015.0,
+          "score": 39.5
+        },
+        {
+          "gender": "male",
+          "seconds": 1016.0,
+          "score": 39.4
+        },
+        {
+          "gender": "male",
+          "seconds": 1017.0,
+          "score": 39.3
+        },
+        {
+          "gender": "male",
+          "seconds": 1018.0,
+          "score": 39.2
+        },
+        {
+          "gender": "male",
+          "seconds": 1019.0,
+          "score": 39.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1020.0,
+          "score": 39.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1021.0,
+          "score": 38.9
+        },
+        {
+          "gender": "male",
+          "seconds": 1022.0,
+          "score": 38.8
+        },
+        {
+          "gender": "male",
+          "seconds": 1023.0,
+          "score": 38.7
+        },
+        {
+          "gender": "male",
+          "seconds": 1024.0,
+          "score": 38.6
+        },
+        {
+          "gender": "male",
+          "seconds": 1025.0,
+          "score": 38.5
+        },
+        {
+          "gender": "male",
+          "seconds": 1026.0,
+          "score": 38.4
+        },
+        {
+          "gender": "male",
+          "seconds": 1027.0,
+          "score": 38.3
+        },
+        {
+          "gender": "male",
+          "seconds": 1028.0,
+          "score": 38.2
+        },
+        {
+          "gender": "male",
+          "seconds": 1029.0,
+          "score": 38.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1030.0,
+          "score": 38.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1031.0,
+          "score": 37.9
+        },
+        {
+          "gender": "male",
+          "seconds": 1032.0,
+          "score": 37.8
+        },
+        {
+          "gender": "male",
+          "seconds": 1033.0,
+          "score": 37.7
+        },
+        {
+          "gender": "male",
+          "seconds": 1034.0,
+          "score": 37.6
+        },
+        {
+          "gender": "male",
+          "seconds": 1035.0,
+          "score": 37.5
+        },
+        {
+          "gender": "male",
+          "seconds": 1036.0,
+          "score": 37.4
+        },
+        {
+          "gender": "male",
+          "seconds": 1037.0,
+          "score": 37.3
+        },
+        {
+          "gender": "male",
+          "seconds": 1038.0,
+          "score": 37.2
+        },
+        {
+          "gender": "male",
+          "seconds": 1039.0,
+          "score": 37.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1040.0,
+          "score": 37.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1041.0,
+          "score": 36.9
+        },
+        {
+          "gender": "male",
+          "seconds": 1042.0,
+          "score": 36.8
+        },
+        {
+          "gender": "male",
+          "seconds": 1043.0,
+          "score": 36.7
+        },
+        {
+          "gender": "male",
+          "seconds": 1044.0,
+          "score": 36.6
+        },
+        {
+          "gender": "male",
+          "seconds": 1045.0,
+          "score": 36.5
+        },
+        {
+          "gender": "male",
+          "seconds": 1046.0,
+          "score": 36.4
+        },
+        {
+          "gender": "male",
+          "seconds": 1047.0,
+          "score": 36.3
+        },
+        {
+          "gender": "male",
+          "seconds": 1048.0,
+          "score": 36.2
+        },
+        {
+          "gender": "male",
+          "seconds": 1049.0,
+          "score": 36.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1050.0,
+          "score": 36.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1051.0,
+          "score": 35.9
+        },
+        {
+          "gender": "male",
+          "seconds": 1052.0,
+          "score": 35.8
+        },
+        {
+          "gender": "male",
+          "seconds": 1053.0,
+          "score": 35.7
+        },
+        {
+          "gender": "male",
+          "seconds": 1054.0,
+          "score": 35.6
+        },
+        {
+          "gender": "male",
+          "seconds": 1055.0,
+          "score": 35.5
+        },
+        {
+          "gender": "male",
+          "seconds": 1056.0,
+          "score": 35.4
+        },
+        {
+          "gender": "male",
+          "seconds": 1057.0,
+          "score": 35.3
+        },
+        {
+          "gender": "male",
+          "seconds": 1058.0,
+          "score": 35.2
+        },
+        {
+          "gender": "male",
+          "seconds": 1059.0,
+          "score": 35.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1060.0,
+          "score": 35.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1061.0,
+          "score": 34.9
+        },
+        {
+          "gender": "male",
+          "seconds": 1062.0,
+          "score": 34.8
+        },
+        {
+          "gender": "male",
+          "seconds": 1063.0,
+          "score": 34.7
+        },
+        {
+          "gender": "male",
+          "seconds": 1064.0,
+          "score": 34.6
+        },
+        {
+          "gender": "male",
+          "seconds": 1065.0,
+          "score": 34.5
+        },
+        {
+          "gender": "male",
+          "seconds": 1066.0,
+          "score": 34.4
+        },
+        {
+          "gender": "male",
+          "seconds": 1067.0,
+          "score": 34.3
+        },
+        {
+          "gender": "male",
+          "seconds": 1068.0,
+          "score": 34.2
+        },
+        {
+          "gender": "male",
+          "seconds": 1069.0,
+          "score": 34.1
+        },
+        {
+          "gender": "male",
+          "seconds": 1070.0,
+          "score": 34.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1071.0,
+          "score": 33.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1072.0,
+          "score": 32.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1073.0,
+          "score": 31.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1074.0,
+          "score": 30.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1075.0,
+          "score": 28.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1076.0,
+          "score": 26.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1077.0,
+          "score": 24.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1078.0,
+          "score": 20.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1079.0,
+          "score": 10.0
+        },
+        {
+          "gender": "male",
+          "seconds": 1080.0,
+          "score": 0.0
+        }
+      ],
+      "female": [
+        {
+          "gender": "female",
+          "seconds": 780.0,
+          "score": 100.0
+        },
+        {
+          "gender": "female",
+          "seconds": 781.0,
+          "score": 99.6
+        },
+        {
+          "gender": "female",
+          "seconds": 782.0,
+          "score": 99.2
+        },
+        {
+          "gender": "female",
+          "seconds": 783.0,
+          "score": 98.8
+        },
+        {
+          "gender": "female",
+          "seconds": 784.0,
+          "score": 98.4
+        },
+        {
+          "gender": "female",
+          "seconds": 785.0,
+          "score": 98.0
+        },
+        {
+          "gender": "female",
+          "seconds": 786.0,
+          "score": 97.6
+        },
+        {
+          "gender": "female",
+          "seconds": 787.0,
+          "score": 97.2
+        },
+        {
+          "gender": "female",
+          "seconds": 788.0,
+          "score": 96.8
+        },
+        {
+          "gender": "female",
+          "seconds": 789.0,
+          "score": 96.4
+        },
+        {
+          "gender": "female",
+          "seconds": 790.0,
+          "score": 96.0
+        },
+        {
+          "gender": "female",
+          "seconds": 791.0,
+          "score": 95.6
+        },
+        {
+          "gender": "female",
+          "seconds": 792.0,
+          "score": 95.2
+        },
+        {
+          "gender": "female",
+          "seconds": 793.0,
+          "score": 94.8
+        },
+        {
+          "gender": "female",
+          "seconds": 794.0,
+          "score": 94.4
+        },
+        {
+          "gender": "female",
+          "seconds": 795.0,
+          "score": 94.0
+        },
+        {
+          "gender": "female",
+          "seconds": 796.0,
+          "score": 93.6
+        },
+        {
+          "gender": "female",
+          "seconds": 797.0,
+          "score": 93.2
+        },
+        {
+          "gender": "female",
+          "seconds": 798.0,
+          "score": 92.8
+        },
+        {
+          "gender": "female",
+          "seconds": 799.0,
+          "score": 92.4
+        },
+        {
+          "gender": "female",
+          "seconds": 800.0,
+          "score": 92.0
+        },
+        {
+          "gender": "female",
+          "seconds": 801.0,
+          "score": 91.6
+        },
+        {
+          "gender": "female",
+          "seconds": 802.0,
+          "score": 91.2
+        },
+        {
+          "gender": "female",
+          "seconds": 803.0,
+          "score": 90.8
+        },
+        {
+          "gender": "female",
+          "seconds": 804.0,
+          "score": 90.4
+        },
+        {
+          "gender": "female",
+          "seconds": 805.0,
+          "score": 90.0
+        },
+        {
+          "gender": "female",
+          "seconds": 806.0,
+          "score": 89.6
+        },
+        {
+          "gender": "female",
+          "seconds": 807.0,
+          "score": 89.2
+        },
+        {
+          "gender": "female",
+          "seconds": 808.0,
+          "score": 88.8
+        },
+        {
+          "gender": "female",
+          "seconds": 809.0,
+          "score": 88.4
+        },
+        {
+          "gender": "female",
+          "seconds": 810.0,
+          "score": 88.0
+        },
+        {
+          "gender": "female",
+          "seconds": 811.0,
+          "score": 87.8
+        },
+        {
+          "gender": "female",
+          "seconds": 812.0,
+          "score": 87.6
+        },
+        {
+          "gender": "female",
+          "seconds": 813.0,
+          "score": 87.4
+        },
+        {
+          "gender": "female",
+          "seconds": 814.0,
+          "score": 87.2
+        },
+        {
+          "gender": "female",
+          "seconds": 815.0,
+          "score": 87.0
+        },
+        {
+          "gender": "female",
+          "seconds": 816.0,
+          "score": 86.8
+        },
+        {
+          "gender": "female",
+          "seconds": 817.0,
+          "score": 86.6
+        },
+        {
+          "gender": "female",
+          "seconds": 818.0,
+          "score": 86.4
+        },
+        {
+          "gender": "female",
+          "seconds": 819.0,
+          "score": 86.2
+        },
+        {
+          "gender": "female",
+          "seconds": 820.0,
+          "score": 86.0
+        },
+        {
+          "gender": "female",
+          "seconds": 821.0,
+          "score": 85.8
+        },
+        {
+          "gender": "female",
+          "seconds": 822.0,
+          "score": 85.6
+        },
+        {
+          "gender": "female",
+          "seconds": 823.0,
+          "score": 85.4
+        },
+        {
+          "gender": "female",
+          "seconds": 824.0,
+          "score": 85.2
+        },
+        {
+          "gender": "female",
+          "seconds": 825.0,
+          "score": 85.0
+        },
+        {
+          "gender": "female",
+          "seconds": 826.0,
+          "score": 84.8
+        },
+        {
+          "gender": "female",
+          "seconds": 827.0,
+          "score": 84.6
+        },
+        {
+          "gender": "female",
+          "seconds": 828.0,
+          "score": 84.4
+        },
+        {
+          "gender": "female",
+          "seconds": 829.0,
+          "score": 84.2
+        },
+        {
+          "gender": "female",
+          "seconds": 830.0,
+          "score": 84.0
+        },
+        {
+          "gender": "female",
+          "seconds": 831.0,
+          "score": 83.8
+        },
+        {
+          "gender": "female",
+          "seconds": 832.0,
+          "score": 83.6
+        },
+        {
+          "gender": "female",
+          "seconds": 833.0,
+          "score": 83.4
+        },
+        {
+          "gender": "female",
+          "seconds": 834.0,
+          "score": 83.2
+        },
+        {
+          "gender": "female",
+          "seconds": 835.0,
+          "score": 83.0
+        },
+        {
+          "gender": "female",
+          "seconds": 836.0,
+          "score": 82.8
+        },
+        {
+          "gender": "female",
+          "seconds": 837.0,
+          "score": 82.6
+        },
+        {
+          "gender": "female",
+          "seconds": 838.0,
+          "score": 82.4
+        },
+        {
+          "gender": "female",
+          "seconds": 839.0,
+          "score": 82.2
+        },
+        {
+          "gender": "female",
+          "seconds": 840.0,
+          "score": 82.0
+        },
+        {
+          "gender": "female",
+          "seconds": 841.0,
+          "score": 81.8
+        },
+        {
+          "gender": "female",
+          "seconds": 842.0,
+          "score": 81.6
+        },
+        {
+          "gender": "female",
+          "seconds": 843.0,
+          "score": 81.4
+        },
+        {
+          "gender": "female",
+          "seconds": 844.0,
+          "score": 81.2
+        },
+        {
+          "gender": "female",
+          "seconds": 845.0,
+          "score": 81.0
+        },
+        {
+          "gender": "female",
+          "seconds": 846.0,
+          "score": 80.8
+        },
+        {
+          "gender": "female",
+          "seconds": 847.0,
+          "score": 80.6
+        },
+        {
+          "gender": "female",
+          "seconds": 848.0,
+          "score": 80.4
+        },
+        {
+          "gender": "female",
+          "seconds": 849.0,
+          "score": 80.2
+        },
+        {
+          "gender": "female",
+          "seconds": 850.0,
+          "score": 80.0
+        },
+        {
+          "gender": "female",
+          "seconds": 851.0,
+          "score": 79.8
+        },
+        {
+          "gender": "female",
+          "seconds": 852.0,
+          "score": 79.6
+        },
+        {
+          "gender": "female",
+          "seconds": 853.0,
+          "score": 79.4
+        },
+        {
+          "gender": "female",
+          "seconds": 854.0,
+          "score": 79.2
+        },
+        {
+          "gender": "female",
+          "seconds": 855.0,
+          "score": 79.0
+        },
+        {
+          "gender": "female",
+          "seconds": 856.0,
+          "score": 78.8
+        },
+        {
+          "gender": "female",
+          "seconds": 857.0,
+          "score": 78.6
+        },
+        {
+          "gender": "female",
+          "seconds": 858.0,
+          "score": 78.4
+        },
+        {
+          "gender": "female",
+          "seconds": 859.0,
+          "score": 78.2
+        },
+        {
+          "gender": "female",
+          "seconds": 860.0,
+          "score": 78.0
+        },
+        {
+          "gender": "female",
+          "seconds": 861.0,
+          "score": 77.8
+        },
+        {
+          "gender": "female",
+          "seconds": 862.0,
+          "score": 77.6
+        },
+        {
+          "gender": "female",
+          "seconds": 863.0,
+          "score": 77.4
+        },
+        {
+          "gender": "female",
+          "seconds": 864.0,
+          "score": 77.2
+        },
+        {
+          "gender": "female",
+          "seconds": 865.0,
+          "score": 77.0
+        },
+        {
+          "gender": "female",
+          "seconds": 866.0,
+          "score": 76.8
+        },
+        {
+          "gender": "female",
+          "seconds": 867.0,
+          "score": 76.6
+        },
+        {
+          "gender": "female",
+          "seconds": 868.0,
+          "score": 76.4
+        },
+        {
+          "gender": "female",
+          "seconds": 869.0,
+          "score": 76.2
+        },
+        {
+          "gender": "female",
+          "seconds": 870.0,
+          "score": 76.0
+        },
+        {
+          "gender": "female",
+          "seconds": 871.0,
+          "score": 75.8
+        },
+        {
+          "gender": "female",
+          "seconds": 872.0,
+          "score": 75.6
+        },
+        {
+          "gender": "female",
+          "seconds": 873.0,
+          "score": 75.4
+        },
+        {
+          "gender": "female",
+          "seconds": 874.0,
+          "score": 75.2
+        },
+        {
+          "gender": "female",
+          "seconds": 875.0,
+          "score": 75.0
+        },
+        {
+          "gender": "female",
+          "seconds": 876.0,
+          "score": 74.8
+        },
+        {
+          "gender": "female",
+          "seconds": 877.0,
+          "score": 74.6
+        },
+        {
+          "gender": "female",
+          "seconds": 878.0,
+          "score": 74.4
+        },
+        {
+          "gender": "female",
+          "seconds": 879.0,
+          "score": 74.2
+        },
+        {
+          "gender": "female",
+          "seconds": 880.0,
+          "score": 74.0
+        },
+        {
+          "gender": "female",
+          "seconds": 881.0,
+          "score": 73.8
+        },
+        {
+          "gender": "female",
+          "seconds": 882.0,
+          "score": 73.6
+        },
+        {
+          "gender": "female",
+          "seconds": 883.0,
+          "score": 73.4
+        },
+        {
+          "gender": "female",
+          "seconds": 884.0,
+          "score": 73.2
+        },
+        {
+          "gender": "female",
+          "seconds": 885.0,
+          "score": 73.0
+        },
+        {
+          "gender": "female",
+          "seconds": 886.0,
+          "score": 72.8
+        },
+        {
+          "gender": "female",
+          "seconds": 887.0,
+          "score": 72.6
+        },
+        {
+          "gender": "female",
+          "seconds": 888.0,
+          "score": 72.4
+        },
+        {
+          "gender": "female",
+          "seconds": 889.0,
+          "score": 72.2
+        },
+        {
+          "gender": "female",
+          "seconds": 890.0,
+          "score": 72.0
+        },
+        {
+          "gender": "female",
+          "seconds": 891.0,
+          "score": 71.8
+        },
+        {
+          "gender": "female",
+          "seconds": 892.0,
+          "score": 71.6
+        },
+        {
+          "gender": "female",
+          "seconds": 893.0,
+          "score": 71.4
+        },
+        {
+          "gender": "female",
+          "seconds": 894.0,
+          "score": 71.2
+        },
+        {
+          "gender": "female",
+          "seconds": 895.0,
+          "score": 71.0
+        },
+        {
+          "gender": "female",
+          "seconds": 896.0,
+          "score": 70.8
+        },
+        {
+          "gender": "female",
+          "seconds": 897.0,
+          "score": 70.6
+        },
+        {
+          "gender": "female",
+          "seconds": 898.0,
+          "score": 70.4
+        },
+        {
+          "gender": "female",
+          "seconds": 899.0,
+          "score": 70.2
+        },
+        {
+          "gender": "female",
+          "seconds": 900.0,
+          "score": 70.0
+        },
+        {
+          "gender": "female",
+          "seconds": 901.0,
+          "score": 69.8
+        },
+        {
+          "gender": "female",
+          "seconds": 902.0,
+          "score": 69.6
+        },
+        {
+          "gender": "female",
+          "seconds": 903.0,
+          "score": 69.4
+        },
+        {
+          "gender": "female",
+          "seconds": 904.0,
+          "score": 69.2
+        },
+        {
+          "gender": "female",
+          "seconds": 905.0,
+          "score": 69.0
+        },
+        {
+          "gender": "female",
+          "seconds": 906.0,
+          "score": 68.8
+        },
+        {
+          "gender": "female",
+          "seconds": 907.0,
+          "score": 68.6
+        },
+        {
+          "gender": "female",
+          "seconds": 908.0,
+          "score": 68.4
+        },
+        {
+          "gender": "female",
+          "seconds": 909.0,
+          "score": 68.2
+        },
+        {
+          "gender": "female",
+          "seconds": 910.0,
+          "score": 68.0
+        },
+        {
+          "gender": "female",
+          "seconds": 911.0,
+          "score": 67.9
+        },
+        {
+          "gender": "female",
+          "seconds": 912.0,
+          "score": 67.8
+        },
+        {
+          "gender": "female",
+          "seconds": 913.0,
+          "score": 67.7
+        },
+        {
+          "gender": "female",
+          "seconds": 914.0,
+          "score": 67.6
+        },
+        {
+          "gender": "female",
+          "seconds": 915.0,
+          "score": 67.5
+        },
+        {
+          "gender": "female",
+          "seconds": 916.0,
+          "score": 67.4
+        },
+        {
+          "gender": "female",
+          "seconds": 917.0,
+          "score": 67.3
+        },
+        {
+          "gender": "female",
+          "seconds": 918.0,
+          "score": 67.2
+        },
+        {
+          "gender": "female",
+          "seconds": 919.0,
+          "score": 67.1
+        },
+        {
+          "gender": "female",
+          "seconds": 920.0,
+          "score": 67.0
+        },
+        {
+          "gender": "female",
+          "seconds": 921.0,
+          "score": 66.9
+        },
+        {
+          "gender": "female",
+          "seconds": 922.0,
+          "score": 66.8
+        },
+        {
+          "gender": "female",
+          "seconds": 923.0,
+          "score": 66.7
+        },
+        {
+          "gender": "female",
+          "seconds": 924.0,
+          "score": 66.6
+        },
+        {
+          "gender": "female",
+          "seconds": 925.0,
+          "score": 66.5
+        },
+        {
+          "gender": "female",
+          "seconds": 926.0,
+          "score": 66.4
+        },
+        {
+          "gender": "female",
+          "seconds": 927.0,
+          "score": 66.3
+        },
+        {
+          "gender": "female",
+          "seconds": 928.0,
+          "score": 66.2
+        },
+        {
+          "gender": "female",
+          "seconds": 929.0,
+          "score": 66.1
+        },
+        {
+          "gender": "female",
+          "seconds": 930.0,
+          "score": 66.0
+        },
+        {
+          "gender": "female",
+          "seconds": 931.0,
+          "score": 65.9
+        },
+        {
+          "gender": "female",
+          "seconds": 932.0,
+          "score": 65.8
+        },
+        {
+          "gender": "female",
+          "seconds": 933.0,
+          "score": 65.7
+        },
+        {
+          "gender": "female",
+          "seconds": 934.0,
+          "score": 65.6
+        },
+        {
+          "gender": "female",
+          "seconds": 935.0,
+          "score": 65.5
+        },
+        {
+          "gender": "female",
+          "seconds": 936.0,
+          "score": 65.4
+        },
+        {
+          "gender": "female",
+          "seconds": 937.0,
+          "score": 65.3
+        },
+        {
+          "gender": "female",
+          "seconds": 938.0,
+          "score": 65.2
+        },
+        {
+          "gender": "female",
+          "seconds": 939.0,
+          "score": 65.1
+        },
+        {
+          "gender": "female",
+          "seconds": 940.0,
+          "score": 65.0
+        },
+        {
+          "gender": "female",
+          "seconds": 941.0,
+          "score": 64.9
+        },
+        {
+          "gender": "female",
+          "seconds": 942.0,
+          "score": 64.8
+        },
+        {
+          "gender": "female",
+          "seconds": 943.0,
+          "score": 64.7
+        },
+        {
+          "gender": "female",
+          "seconds": 944.0,
+          "score": 64.6
+        },
+        {
+          "gender": "female",
+          "seconds": 945.0,
+          "score": 64.5
+        },
+        {
+          "gender": "female",
+          "seconds": 946.0,
+          "score": 64.4
+        },
+        {
+          "gender": "female",
+          "seconds": 947.0,
+          "score": 64.3
+        },
+        {
+          "gender": "female",
+          "seconds": 948.0,
+          "score": 64.2
+        },
+        {
+          "gender": "female",
+          "seconds": 949.0,
+          "score": 64.1
+        },
+        {
+          "gender": "female",
+          "seconds": 950.0,
+          "score": 64.0
+        },
+        {
+          "gender": "female",
+          "seconds": 951.0,
+          "score": 63.9
+        },
+        {
+          "gender": "female",
+          "seconds": 952.0,
+          "score": 63.8
+        },
+        {
+          "gender": "female",
+          "seconds": 953.0,
+          "score": 63.7
+        },
+        {
+          "gender": "female",
+          "seconds": 954.0,
+          "score": 63.6
+        },
+        {
+          "gender": "female",
+          "seconds": 955.0,
+          "score": 63.5
+        },
+        {
+          "gender": "female",
+          "seconds": 956.0,
+          "score": 63.4
+        },
+        {
+          "gender": "female",
+          "seconds": 957.0,
+          "score": 63.3
+        },
+        {
+          "gender": "female",
+          "seconds": 958.0,
+          "score": 63.2
+        },
+        {
+          "gender": "female",
+          "seconds": 959.0,
+          "score": 63.1
+        },
+        {
+          "gender": "female",
+          "seconds": 960.0,
+          "score": 63.0
+        },
+        {
+          "gender": "female",
+          "seconds": 961.0,
+          "score": 62.9
+        },
+        {
+          "gender": "female",
+          "seconds": 962.0,
+          "score": 62.8
+        },
+        {
+          "gender": "female",
+          "seconds": 963.0,
+          "score": 62.7
+        },
+        {
+          "gender": "female",
+          "seconds": 964.0,
+          "score": 62.6
+        },
+        {
+          "gender": "female",
+          "seconds": 965.0,
+          "score": 62.5
+        },
+        {
+          "gender": "female",
+          "seconds": 966.0,
+          "score": 62.4
+        },
+        {
+          "gender": "female",
+          "seconds": 967.0,
+          "score": 62.3
+        },
+        {
+          "gender": "female",
+          "seconds": 968.0,
+          "score": 62.2
+        },
+        {
+          "gender": "female",
+          "seconds": 969.0,
+          "score": 62.1
+        },
+        {
+          "gender": "female",
+          "seconds": 970.0,
+          "score": 62.0
+        },
+        {
+          "gender": "female",
+          "seconds": 971.0,
+          "score": 61.9
+        },
+        {
+          "gender": "female",
+          "seconds": 972.0,
+          "score": 61.8
+        },
+        {
+          "gender": "female",
+          "seconds": 973.0,
+          "score": 61.7
+        },
+        {
+          "gender": "female",
+          "seconds": 974.0,
+          "score": 61.6
+        },
+        {
+          "gender": "female",
+          "seconds": 975.0,
+          "score": 61.5
+        },
+        {
+          "gender": "female",
+          "seconds": 976.0,
+          "score": 61.4
+        },
+        {
+          "gender": "female",
+          "seconds": 977.0,
+          "score": 61.3
+        },
+        {
+          "gender": "female",
+          "seconds": 978.0,
+          "score": 61.2
+        },
+        {
+          "gender": "female",
+          "seconds": 979.0,
+          "score": 61.1
+        },
+        {
+          "gender": "female",
+          "seconds": 980.0,
+          "score": 61.0
+        },
+        {
+          "gender": "female",
+          "seconds": 981.0,
+          "score": 60.9
+        },
+        {
+          "gender": "female",
+          "seconds": 982.0,
+          "score": 60.8
+        },
+        {
+          "gender": "female",
+          "seconds": 983.0,
+          "score": 60.7
+        },
+        {
+          "gender": "female",
+          "seconds": 984.0,
+          "score": 60.6
+        },
+        {
+          "gender": "female",
+          "seconds": 985.0,
+          "score": 60.5
+        },
+        {
+          "gender": "female",
+          "seconds": 986.0,
+          "score": 60.4
+        },
+        {
+          "gender": "female",
+          "seconds": 987.0,
+          "score": 60.3
+        },
+        {
+          "gender": "female",
+          "seconds": 988.0,
+          "score": 60.2
+        },
+        {
+          "gender": "female",
+          "seconds": 989.0,
+          "score": 60.1
+        },
+        {
+          "gender": "female",
+          "seconds": 990.0,
+          "score": 60.0
+        },
+        {
+          "gender": "female",
+          "seconds": 991.0,
+          "score": 59.9
+        },
+        {
+          "gender": "female",
+          "seconds": 992.0,
+          "score": 59.8
+        },
+        {
+          "gender": "female",
+          "seconds": 993.0,
+          "score": 59.7
+        },
+        {
+          "gender": "female",
+          "seconds": 994.0,
+          "score": 59.6
+        },
+        {
+          "gender": "female",
+          "seconds": 995.0,
+          "score": 59.5
+        },
+        {
+          "gender": "female",
+          "seconds": 996.0,
+          "score": 59.4
+        },
+        {
+          "gender": "female",
+          "seconds": 997.0,
+          "score": 59.3
+        },
+        {
+          "gender": "female",
+          "seconds": 998.0,
+          "score": 59.2
+        },
+        {
+          "gender": "female",
+          "seconds": 999.0,
+          "score": 59.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1000.0,
+          "score": 59.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1001.0,
+          "score": 58.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1002.0,
+          "score": 58.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1003.0,
+          "score": 58.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1004.0,
+          "score": 58.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1005.0,
+          "score": 58.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1006.0,
+          "score": 58.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1007.0,
+          "score": 58.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1008.0,
+          "score": 58.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1009.0,
+          "score": 58.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1010.0,
+          "score": 58.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1011.0,
+          "score": 57.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1012.0,
+          "score": 57.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1013.0,
+          "score": 57.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1014.0,
+          "score": 57.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1015.0,
+          "score": 57.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1016.0,
+          "score": 57.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1017.0,
+          "score": 57.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1018.0,
+          "score": 57.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1019.0,
+          "score": 57.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1020.0,
+          "score": 57.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1021.0,
+          "score": 56.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1022.0,
+          "score": 56.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1023.0,
+          "score": 56.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1024.0,
+          "score": 56.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1025.0,
+          "score": 56.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1026.0,
+          "score": 56.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1027.0,
+          "score": 56.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1028.0,
+          "score": 56.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1029.0,
+          "score": 56.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1030.0,
+          "score": 56.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1031.0,
+          "score": 55.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1032.0,
+          "score": 55.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1033.0,
+          "score": 55.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1034.0,
+          "score": 55.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1035.0,
+          "score": 55.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1036.0,
+          "score": 55.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1037.0,
+          "score": 55.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1038.0,
+          "score": 55.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1039.0,
+          "score": 55.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1040.0,
+          "score": 55.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1041.0,
+          "score": 54.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1042.0,
+          "score": 54.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1043.0,
+          "score": 54.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1044.0,
+          "score": 54.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1045.0,
+          "score": 54.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1046.0,
+          "score": 54.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1047.0,
+          "score": 54.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1048.0,
+          "score": 54.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1049.0,
+          "score": 54.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1050.0,
+          "score": 54.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1051.0,
+          "score": 53.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1052.0,
+          "score": 53.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1053.0,
+          "score": 53.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1054.0,
+          "score": 53.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1055.0,
+          "score": 53.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1056.0,
+          "score": 53.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1057.0,
+          "score": 53.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1058.0,
+          "score": 53.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1059.0,
+          "score": 53.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1060.0,
+          "score": 53.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1061.0,
+          "score": 52.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1062.0,
+          "score": 52.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1063.0,
+          "score": 52.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1064.0,
+          "score": 52.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1065.0,
+          "score": 52.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1066.0,
+          "score": 52.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1067.0,
+          "score": 52.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1068.0,
+          "score": 52.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1069.0,
+          "score": 52.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1070.0,
+          "score": 52.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1071.0,
+          "score": 51.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1072.0,
+          "score": 51.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1073.0,
+          "score": 51.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1074.0,
+          "score": 51.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1075.0,
+          "score": 51.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1076.0,
+          "score": 51.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1077.0,
+          "score": 51.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1078.0,
+          "score": 51.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1079.0,
+          "score": 51.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1080.0,
+          "score": 51.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1081.0,
+          "score": 50.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1082.0,
+          "score": 50.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1083.0,
+          "score": 50.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1084.0,
+          "score": 50.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1085.0,
+          "score": 50.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1086.0,
+          "score": 50.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1087.0,
+          "score": 50.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1088.0,
+          "score": 50.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1089.0,
+          "score": 50.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1090.0,
+          "score": 50.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1091.0,
+          "score": 49.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1092.0,
+          "score": 49.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1093.0,
+          "score": 49.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1094.0,
+          "score": 49.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1095.0,
+          "score": 49.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1096.0,
+          "score": 49.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1097.0,
+          "score": 49.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1098.0,
+          "score": 49.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1099.0,
+          "score": 49.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1100.0,
+          "score": 49.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1101.0,
+          "score": 48.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1102.0,
+          "score": 48.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1103.0,
+          "score": 48.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1104.0,
+          "score": 48.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1105.0,
+          "score": 48.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1106.0,
+          "score": 48.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1107.0,
+          "score": 48.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1108.0,
+          "score": 48.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1109.0,
+          "score": 48.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1110.0,
+          "score": 48.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1111.0,
+          "score": 47.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1112.0,
+          "score": 47.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1113.0,
+          "score": 47.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1114.0,
+          "score": 47.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1115.0,
+          "score": 47.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1116.0,
+          "score": 47.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1117.0,
+          "score": 47.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1118.0,
+          "score": 47.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1119.0,
+          "score": 47.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1120.0,
+          "score": 47.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1121.0,
+          "score": 46.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1122.0,
+          "score": 46.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1123.0,
+          "score": 46.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1124.0,
+          "score": 46.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1125.0,
+          "score": 46.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1126.0,
+          "score": 46.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1127.0,
+          "score": 46.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1128.0,
+          "score": 46.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1129.0,
+          "score": 46.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1130.0,
+          "score": 46.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1131.0,
+          "score": 45.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1132.0,
+          "score": 45.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1133.0,
+          "score": 45.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1134.0,
+          "score": 45.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1135.0,
+          "score": 45.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1136.0,
+          "score": 45.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1137.0,
+          "score": 45.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1138.0,
+          "score": 45.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1139.0,
+          "score": 45.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1140.0,
+          "score": 45.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1141.0,
+          "score": 44.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1142.0,
+          "score": 44.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1143.0,
+          "score": 44.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1144.0,
+          "score": 44.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1145.0,
+          "score": 44.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1146.0,
+          "score": 44.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1147.0,
+          "score": 44.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1148.0,
+          "score": 44.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1149.0,
+          "score": 44.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1150.0,
+          "score": 44.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1151.0,
+          "score": 43.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1152.0,
+          "score": 43.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1153.0,
+          "score": 43.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1154.0,
+          "score": 43.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1155.0,
+          "score": 43.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1156.0,
+          "score": 43.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1157.0,
+          "score": 43.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1158.0,
+          "score": 43.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1159.0,
+          "score": 43.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1160.0,
+          "score": 43.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1161.0,
+          "score": 42.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1162.0,
+          "score": 42.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1163.0,
+          "score": 42.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1164.0,
+          "score": 42.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1165.0,
+          "score": 42.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1166.0,
+          "score": 42.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1167.0,
+          "score": 42.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1168.0,
+          "score": 42.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1169.0,
+          "score": 42.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1170.0,
+          "score": 42.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1171.0,
+          "score": 41.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1172.0,
+          "score": 41.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1173.0,
+          "score": 41.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1174.0,
+          "score": 41.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1175.0,
+          "score": 41.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1176.0,
+          "score": 41.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1177.0,
+          "score": 41.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1178.0,
+          "score": 41.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1179.0,
+          "score": 41.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1180.0,
+          "score": 41.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1181.0,
+          "score": 40.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1182.0,
+          "score": 40.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1183.0,
+          "score": 40.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1184.0,
+          "score": 40.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1185.0,
+          "score": 40.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1186.0,
+          "score": 40.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1187.0,
+          "score": 40.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1188.0,
+          "score": 40.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1189.0,
+          "score": 40.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1190.0,
+          "score": 40.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1191.0,
+          "score": 39.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1192.0,
+          "score": 39.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1193.0,
+          "score": 39.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1194.0,
+          "score": 39.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1195.0,
+          "score": 39.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1196.0,
+          "score": 39.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1197.0,
+          "score": 39.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1198.0,
+          "score": 39.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1199.0,
+          "score": 39.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1200.0,
+          "score": 39.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1201.0,
+          "score": 38.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1202.0,
+          "score": 38.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1203.0,
+          "score": 38.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1204.0,
+          "score": 38.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1205.0,
+          "score": 38.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1206.0,
+          "score": 38.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1207.0,
+          "score": 38.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1208.0,
+          "score": 38.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1209.0,
+          "score": 38.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1210.0,
+          "score": 38.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1211.0,
+          "score": 37.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1212.0,
+          "score": 37.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1213.0,
+          "score": 37.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1214.0,
+          "score": 37.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1215.0,
+          "score": 37.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1216.0,
+          "score": 37.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1217.0,
+          "score": 37.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1218.0,
+          "score": 37.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1219.0,
+          "score": 37.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1220.0,
+          "score": 37.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1221.0,
+          "score": 36.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1222.0,
+          "score": 36.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1223.0,
+          "score": 36.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1224.0,
+          "score": 36.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1225.0,
+          "score": 36.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1226.0,
+          "score": 36.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1227.0,
+          "score": 36.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1228.0,
+          "score": 36.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1229.0,
+          "score": 36.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1230.0,
+          "score": 36.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1231.0,
+          "score": 35.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1232.0,
+          "score": 35.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1233.0,
+          "score": 35.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1234.0,
+          "score": 35.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1235.0,
+          "score": 35.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1236.0,
+          "score": 35.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1237.0,
+          "score": 35.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1238.0,
+          "score": 35.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1239.0,
+          "score": 35.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1240.0,
+          "score": 35.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1241.0,
+          "score": 34.9
+        },
+        {
+          "gender": "female",
+          "seconds": 1242.0,
+          "score": 34.8
+        },
+        {
+          "gender": "female",
+          "seconds": 1243.0,
+          "score": 34.7
+        },
+        {
+          "gender": "female",
+          "seconds": 1244.0,
+          "score": 34.6
+        },
+        {
+          "gender": "female",
+          "seconds": 1245.0,
+          "score": 34.5
+        },
+        {
+          "gender": "female",
+          "seconds": 1246.0,
+          "score": 34.4
+        },
+        {
+          "gender": "female",
+          "seconds": 1247.0,
+          "score": 34.3
+        },
+        {
+          "gender": "female",
+          "seconds": 1248.0,
+          "score": 34.2
+        },
+        {
+          "gender": "female",
+          "seconds": 1249.0,
+          "score": 34.1
+        },
+        {
+          "gender": "female",
+          "seconds": 1250.0,
+          "score": 34.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1251.0,
+          "score": 33.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1252.0,
+          "score": 32.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1253.0,
+          "score": 31.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1254.0,
+          "score": 30.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1255.0,
+          "score": 28.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1256.0,
+          "score": 26.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1257.0,
+          "score": 24.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1258.0,
+          "score": 20.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1259.0,
+          "score": 10.0
+        },
+        {
+          "gender": "female",
+          "seconds": 1260.0,
+          "score": 0.0
+        }
+      ]
+    },
+    "school": {
+      "male": {
+        "headers": [
+          "等 级",
+          "单项得分",
+          "1000米(分.秒)",
+          "台阶试验",
+          "50米跑（秒）",
+          "立定跳远（米）",
+          "掷实心球（米）",
+          "引体向上(次)",
+          "坐位体前屈(厘米)",
+          "跳绳（次/1分钟）"
+        ],
+        "rows": [
+          {
+            "score": 100,
+            "endurance": "3′27〞",
+            "step": 82.0,
+            "sprint": 6.0,
+            "jump": 2.66,
+            "ball": 15.7,
+            "strength": 26.0,
+            "sitReach": 23.0,
+            "rope": 198.0
+          },
+          {
+            "score": 98,
+            "endurance": "3′28〞",
+            "step": 80.0,
+            "sprint": 6.1,
+            "jump": 2.65,
+            "ball": 15.2,
+            "strength": 25.0,
+            "sitReach": 22.6,
+            "rope": 193.0
+          },
+          {
+            "score": 96,
+            "endurance": "3′31〞",
+            "step": 77.0,
+            "sprint": 6.2,
+            "jump": 2.63,
+            "ball": 14.4,
+            "strength": 24.0,
+            "sitReach": 22.0,
+            "rope": 186.0
+          },
+          {
+            "score": 94,
+            "endurance": "3′33〞",
+            "step": 74.0,
+            "sprint": 6.3,
+            "jump": 2.62,
+            "ball": 13.6,
+            "strength": 23.0,
+            "sitReach": 21.4,
+            "rope": 178.0
+          },
+          {
+            "score": 92,
+            "endurance": "3′35〞",
+            "step": 71.0,
+            "sprint": 6.4,
+            "jump": 2.6,
+            "ball": 12.5,
+            "strength": 22.0,
+            "sitReach": 20.6,
+            "rope": 168.0
+          },
+          {
+            "score": 90,
+            "endurance": "3′39〞",
+            "step": 67.0,
+            "sprint": 6.5,
+            "jump": 2.58,
+            "ball": 11.5,
+            "strength": 21.0,
+            "sitReach": 19.8,
+            "rope": 158.0
+          },
+          {
+            "score": 87,
+            "endurance": "3′42〞",
+            "step": 65.0,
+            "sprint": 6.6,
+            "jump": 2.56,
+            "ball": 11.3,
+            "strength": 20.0,
+            "sitReach": 18.9,
+            "rope": 152.0
+          },
+          {
+            "score": 84,
+            "endurance": "3′45〞",
+            "step": 63.0,
+            "sprint": 6.8,
+            "jump": 2.52,
+            "ball": 10.9,
+            "strength": 19.0,
+            "sitReach": 17.5,
+            "rope": 144.0
+          },
+          {
+            "score": 81,
+            "endurance": "3′49〞",
+            "step": 60.0,
+            "sprint": 7.0,
+            "jump": 2.48,
+            "ball": 10.5,
+            "strength": 18.0,
+            "sitReach": 16.2,
+            "rope": 136.0
+          },
+          {
+            "score": 78,
+            "endurance": "3′53〞",
+            "step": 57.0,
+            "sprint": 7.3,
+            "jump": 2.43,
+            "ball": 10.0,
+            "strength": 17.0,
+            "sitReach": 14.3,
+            "rope": 124.0
+          },
+          {
+            "score": 75,
+            "endurance": "3′58〞",
+            "step": 53.0,
+            "sprint": 7.5,
+            "jump": 2.38,
+            "ball": 9.5,
+            "strength": 16.0,
+            "sitReach": 12.5,
+            "rope": 113.0
+          },
+          {
+            "score": 72,
+            "endurance": "4′05〞",
+            "step": 52.0,
+            "sprint": 7.6,
+            "jump": 2.35,
+            "ball": 9.3,
+            "strength": 15.0,
+            "sitReach": 11.3,
+            "rope": 108.0
+          },
+          {
+            "score": 69,
+            "endurance": "4′12〞",
+            "step": 51.0,
+            "sprint": 7.7,
+            "jump": 2.31,
+            "ball": 8.9,
+            "strength": 14.0,
+            "sitReach": 9.5,
+            "rope": 101.0
+          },
+          {
+            "score": 66,
+            "endurance": "4′19〞",
+            "step": 50.0,
+            "sprint": 7.8,
+            "jump": 2.26,
+            "ball": 8.5,
+            "strength": 13.0,
+            "sitReach": 7.8,
+            "rope": 94.0
+          },
+          {
+            "score": 63,
+            "endurance": "4′26〞",
+            "step": 48.0,
+            "sprint": 8.0,
+            "jump": 2.2,
+            "ball": 8.0,
+            "strength": 12.0,
+            "sitReach": 5.4,
+            "rope": 85.0
+          },
+          {
+            "score": 60,
+            "endurance": "4′33〞",
+            "step": 46.0,
+            "sprint": 8.1,
+            "jump": 2.14,
+            "ball": 7.5,
+            "strength": 11.0,
+            "sitReach": 3.0,
+            "rope": 75.0
+          },
+          {
+            "score": 50,
+            "endurance": "4′40〞",
+            "step": 45.0,
+            "sprint": 8.2,
+            "jump": 2.12,
+            "ball": 7.3,
+            "strength": 9.0,
+            "sitReach": 2.4,
+            "rope": 71.0
+          },
+          {
+            "score": 40,
+            "endurance": "4′47〞",
+            "step": 44.0,
+            "sprint": 8.3,
+            "jump": 2.09,
+            "ball": 7.0,
+            "strength": 8.0,
+            "sitReach": 1.4,
+            "rope": 64.0
+          },
+          {
+            "score": 30,
+            "endurance": "4′54〞",
+            "step": 43.0,
+            "sprint": 8.5,
+            "jump": 2.06,
+            "ball": 6.7,
+            "strength": 7.0,
+            "sitReach": 0.5,
+            "rope": 58.0
+          },
+          {
+            "score": 20,
+            "endurance": "5′01〞",
+            "step": 42.0,
+            "sprint": 8.6,
+            "jump": 2.03,
+            "ball": 6.2,
+            "strength": 6.0,
+            "sitReach": -0.8,
+            "rope": 49.0
+          },
+          {
+            "score": 10,
+            "endurance": "5′08〞",
+            "step": 40.0,
+            "sprint": 8.8,
+            "jump": 1.99,
+            "ball": 5.8,
+            "strength": 5.0,
+            "sitReach": -2.0,
+            "rope": 40.0
+          }
+        ]
+      },
+      "female": {
+        "headers": [
+          "等 级",
+          "单项得分",
+          "800米(分.秒)",
+          "台阶试验",
+          "50米跑（秒）",
+          "立定跳远（米）",
+          "掷实心球（米）",
+          "仰卧起坐(次/分钟)",
+          "坐位体前屈(厘米)",
+          "跳绳（次/1分钟）"
+        ],
+        "rows": [
+          {
+            "score": 100,
+            "endurance": "3′24〞",
+            "step": 78.0,
+            "sprint": 7.2,
+            "jump": 2.07,
+            "ball": 8.6,
+            "strength": 52.0,
+            "sitReach": 21.1,
+            "rope": 190.0
+          },
+          {
+            "score": 98,
+            "endurance": "3′27〞",
+            "step": 75.0,
+            "sprint": 7.3,
+            "jump": 2.06,
+            "ball": 8.5,
+            "strength": 51.0,
+            "sitReach": 20.8,
+            "rope": 184.0
+          },
+          {
+            "score": 96,
+            "endurance": "3′29〞",
+            "step": 72.0,
+            "sprint": 7.4,
+            "jump": 2.05,
+            "ball": 8.4,
+            "strength": 50.0,
+            "sitReach": 20.3,
+            "rope": 175.0
+          },
+          {
+            "score": 94,
+            "endurance": "3′32〞",
+            "step": 69.0,
+            "sprint": 7.5,
+            "jump": 2.03,
+            "ball": 8.2,
+            "strength": 49.0,
+            "sitReach": 19.8,
+            "rope": 166.0
+          },
+          {
+            "score": 92,
+            "endurance": "3′35〞",
+            "step": 64.0,
+            "sprint": 7.7,
+            "jump": 2.01,
+            "ball": 8.0,
+            "strength": 47.0,
+            "sitReach": 19.2,
+            "rope": 154.0
+          },
+          {
+            "score": 90,
+            "endurance": "3′38〞",
+            "step": 60.0,
+            "sprint": 7.8,
+            "jump": 1.99,
+            "ball": 7.8,
+            "strength": 45.0,
+            "sitReach": 18.6,
+            "rope": 142.0
+          },
+          {
+            "score": 87,
+            "endurance": "3′42〞",
+            "step": 59.0,
+            "sprint": 7.9,
+            "jump": 1.97,
+            "ball": 7.7,
+            "strength": 44.0,
+            "sitReach": 17.7,
+            "rope": 137.0
+          },
+          {
+            "score": 84,
+            "endurance": "3′46〞",
+            "step": 57.0,
+            "sprint": 8.0,
+            "jump": 1.93,
+            "ball": 7.6,
+            "strength": 43.0,
+            "sitReach": 16.3,
+            "rope": 130.0
+          },
+          {
+            "score": 81,
+            "endurance": "3′50〞",
+            "step": 55.0,
+            "sprint": 8.2,
+            "jump": 1.89,
+            "ball": 7.5,
+            "strength": 42.0,
+            "sitReach": 15.0,
+            "rope": 122.0
+          },
+          {
+            "score": 78,
+            "endurance": "3′54〞",
+            "step": 52.0,
+            "sprint": 8.3,
+            "jump": 1.84,
+            "ball": 7.4,
+            "strength": 40.0,
+            "sitReach": 13.1,
+            "rope": 112.0
+          },
+          {
+            "score": 75,
+            "endurance": "3′58〞",
+            "step": 49.0,
+            "sprint": 8.5,
+            "jump": 1.79,
+            "ball": 7.2,
+            "strength": 38.0,
+            "sitReach": 11.3,
+            "rope": 102.0
+          },
+          {
+            "score": 72,
+            "endurance": "4′03〞",
+            "step": 48.0,
+            "sprint": 8.6,
+            "jump": 1.76,
+            "ball": 7.1,
+            "strength": 37.0,
+            "sitReach": 10.1,
+            "rope": 98.0
+          },
+          {
+            "score": 69,
+            "endurance": "4′08〞",
+            "step": 47.0,
+            "sprint": 8.7,
+            "jump": 1.72,
+            "ball": 7.0,
+            "strength": 35.0,
+            "sitReach": 8.3,
+            "rope": 92.0
+          },
+          {
+            "score": 66,
+            "endurance": "4′13〞",
+            "step": 46.0,
+            "sprint": 8.8,
+            "jump": 1.69,
+            "ball": 6.8,
+            "strength": 33.0,
+            "sitReach": 6.5,
+            "rope": 86.0
+          },
+          {
+            "score": 63,
+            "endurance": "4′18〞",
+            "step": 44.0,
+            "sprint": 8.9,
+            "jump": 1.63,
+            "ball": 6.6,
+            "strength": 31.0,
+            "sitReach": 4.1,
+            "rope": 78.0
+          },
+          {
+            "score": 60,
+            "endurance": "4′23〞",
+            "step": 42.0,
+            "sprint": 9.0,
+            "jump": 1.58,
+            "ball": 6.4,
+            "strength": 28.0,
+            "sitReach": 1.7,
+            "rope": 70.0
+          },
+          {
+            "score": 50,
+            "endurance": "4′30〞",
+            "step": 41.0,
+            "sprint": 9.1,
+            "jump": 1.56,
+            "ball": 6.2,
+            "strength": 27.0,
+            "sitReach": 1.5,
+            "rope": 66.0
+          },
+          {
+            "score": 40,
+            "endurance": "4′37〞",
+            "step": 40.0,
+            "sprint": 9.3,
+            "jump": 1.53,
+            "ball": 6.0,
+            "strength": 26.0,
+            "sitReach": 1.3,
+            "rope": 59.0
+          },
+          {
+            "score": 30,
+            "endurance": "4′44〞",
+            "step": 39.0,
+            "sprint": 9.5,
+            "jump": 1.5,
+            "ball": 5.7,
+            "strength": 25.0,
+            "sitReach": 1.0,
+            "rope": 53.0
+          },
+          {
+            "score": 20,
+            "endurance": "4′51〞",
+            "step": 38.0,
+            "sprint": 9.8,
+            "jump": 1.46,
+            "ball": 5.4,
+            "strength": 23.0,
+            "sitReach": 0.6,
+            "rope": 44.0
+          },
+          {
+            "score": 10,
+            "endurance": "5′00〞",
+            "step": 36.0,
+            "sprint": 10.0,
+            "jump": 1.42,
+            "ball": 5.0,
+            "strength": 21.0,
+            "sitReach": 0.2,
+            "rope": 35.0
+          }
+        ]
+      }
+    }
+  }
+}
